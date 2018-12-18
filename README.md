@@ -38,5 +38,3 @@ It is also able to perform transformations over the messages such as customized 
 ## <a href="https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Dynamic Fast Buffers ](https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf)
 
 **eProsima Dynamic Fast Buffers** is an **open source high-performance serialization library** using a different approach to the traditional serialization frameworks. Data types are defined through a friendly API directly in your application code, and the serialization support is generated at runtime.
-
-
