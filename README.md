@@ -13,7 +13,7 @@ Shapes Demo is an application that Publishes and Subscribes to shapes of differe
 
 ## <a href="https://micro-xrce-dds.readthedocs.io/en/latest/introduction.html"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Micro XRCE-DDS](https://micro-xrce-dds.readthedocs.io/en/latest/introduction.html)
 
-**Micro XRCE-DD**S implements **DDS-XRCE protocol** specified in the DDS for *eXtremely Resource Constrained Environments* proposal submitted to the **Object Management Group (OMG)** consortium.
+**eProsima Micro XRCE-DDS** implements **DDS-XRCE protocol** specified in the DDS for *eXtremely Resource Constrained Environments* proposal submitted to the **Object Management Group (OMG)** consortium.
 
 ## <a href="https://integration-services.readthedocs.io/en/latest/"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Integration Services](https://integration-services.readthedocs.io/en/latest/)
 
