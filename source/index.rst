@@ -55,11 +55,11 @@ Demo can publish on or subscribe to several topics at a time.
 	:align: left
 	:target: `Micro XRCE-DDS`_
 
--------------------
-`Micro XRCE-DDS`_
--------------------
+----------------------------
+`eProsima Micro XRCE-DDS`_
+----------------------------
 
-**Micro XRCE-DD**\ S implements **DDS-XRCE protocol** specified in the
+**eProsima Micro XRCE-DDS** implements **DDS-XRCE protocol** specified in the
 DDS for *eXtremely Resource Constrained Environments* proposal submitted
 to the **Object Management Group (OMG)** consortium.
 
