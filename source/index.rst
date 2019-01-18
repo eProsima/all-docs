@@ -38,10 +38,10 @@ based on Publishers, Subscribers and Data Topics.
 	:height: 70
 	:width: 70
 	:align: left
-	:target: `eProsima Shape Demo Analytics`_
+	:target: `eProsima Shape Demo`_
 
 ---------------------------------
-`eProsima Shape Demo Analytics`_
+`eProsima Shape Demo`_
 ---------------------------------
 
 Shapes Demo is an application that Publishes and Subscribes to shapes of
@@ -53,7 +53,7 @@ Demo can publish on or subscribe to several topics at a time.
 	:height: 70
 	:width: 70
 	:align: left
-	:target: `Micro XRCE-DDS`_
+	:target: `eProsima Micro XRCE-DDS`_
 
 ----------------------------
 `eProsima Micro XRCE-DDS`_
@@ -128,8 +128,8 @@ the over the messages such as customized routing and mapping.
 
 
 .. _eProsima Fast RTPS: http://eprosima-fast-rtps.readthedocs.io
-.. _eProsima Shape Demo Analytics: https://eprosima-shapes-demo.readthedocs.io/en/latest/
-.. _Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/introduction.html
+.. _eProsima Shape Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
+.. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/introduction.html
 .. _eProsima Integration Services: https://integration-services.readthedocs.io/en/latest/
 .. _Fast RTPS: http://eprosima-fast-rtps.readthedocs.io
 .. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
