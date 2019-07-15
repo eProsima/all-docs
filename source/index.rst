@@ -153,6 +153,6 @@ Now Fast RTPS allows a centralized, non-standard, client-server discovery mechan
 .. _eProsima Fast Buffers: https://www.eprosima.com/docs/fast-buffers/0.3.0/pdf/User-Manual.pdf
 .. _eProsima Non-Intrusive DDS Recorder:    https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima Dynamic Fast Buffers: https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf
-.. _eProsima Discovery Server: https://discovery-server.readthedocs.io/en/latest/
+.. _eProsima Discovery Server: https://eprosima-discovery-server.readthedocs.io/en/latest/
 
 
