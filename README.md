@@ -54,7 +54,7 @@ It is also able to perform transformations over the messages such as customized 
  approach to the traditional serialization frameworks. Data types are defined through a friendly API directly in your
  application code, and the serialization support is generated at runtime.
 
-## <a href="https://discovery-server.readthedocs.io/en/latest/"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Discovery Server](https://integration-services.readthedocs.io/en/latest/)
+## <a href="https://eprosima-discovery-server.readthedocs.io/en/latest/"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Discovery Server](https://eprosima-discovery-server.readthedocs.io/en/latest/)
 
 **eProsima Discovery Server** is an application that simplifies the use and testing of the new
 [Fast RTPS](http://eprosima-fast-rtps.readthedocs.io) discovery capabilities. Now Fast RTPS allows a centralized,
