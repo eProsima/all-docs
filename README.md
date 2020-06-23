@@ -1,72 +1,102 @@
-# eProsima project documentation index
+# eProsima projects documentation index
 
-<a href="http://www.eprosima.com"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="right" hspace="8" vspace="2" width="100" height="100" ></a>
+<a href="http://www.eprosima.com"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd0PDlVz1U_7MgdTe0FRIWD0Jc9_YH-gGi0ZpLkr-qgCI6ZEoJZ5GBqQ" align="left" hspace="8" vspace="2" width="100" height="100" ></a>
 
-eProsima is focused in networking middleware and tools for high performance distributed systems and our products are
-customer driven.
-Over the years we have excelled in several areas of expertise: low latency, high throughput, small footprint, low
-bandwidth consumption, optimum protocol, low CPU use, etc., working under various scenarios, from high-performance
-systems with high speed reliable links, to small devices connected over unreliable radio links.
+*eprosima Fast DDS* (formerly Fast RTPS) is a C++ implementation of the DDS (Data Distribution Service) standard of the OMG (Object Management Group). eProsima Fast DDS implements the RTPS (Real Time Publish Subscribe) protocol, which provides publisher-subscriber communications over unreliable transports such as UDP,
+as defined and maintained by the Object Management Group (OMG) consortium. RTPS is also the wire interoperability protocol defined for the Data Distribution
+Service (DDS) standard. *eProsima Fast DDS* exposes an API to access the RTPS protocol directly, giving the user full access to the protocol internals.
 
+Some of the main features of this library are:
 
-## <a href="https://fast-dds.docs.eprosima.com/en/latest/"><img alt="eProsima Fast DDS" src="source/01-figures/Fast_DDS.png" align="left" hspace="8" vspace="2" width="120" height="120"></a> [eProsima Fast DDS](https://fast-dds.docs.eprosima.com/en/latest/)
+* Configurable best-effort and reliable publish-subscribe communication policies for real-time
+applications.
+* Plug and play connectivity so that any new applications are automatically discovered by any other
+members of the network.
+* Modularity and scalability to allow continuous growth with complex and simple devices in the
+network.
+* Configurable network behavior and interchangeable transport layer: Choose the best protocol and
+system input/output channel combination for each deployment.
+* Two API Layers: a high-level Publisher-Subscriber one focused on usability (DDS) and a lower-level Writer-Reader one that provides finer access to the inner workings of the RTPS protocol.
 
-*eProsima Fast DDS* is a high performance publish subscribe framework to share data in distributed systems using a
-decoupled model based on Publishers, Subscribers, and Data Topics.
+*eProsima Fast DDS* has been adopted by multiple organizations in many sectors including these important cases:
 
+* Robotics: ROS (Robotic Operating System) as their default middleware for ROS2.
+* EU R&D: FIWARE Incubated GE.
 
-## <a href="https://eprosima-shapes-demo.readthedocs.io/en/latest/"><img alt="eProsima Shapes Demo Analytics" src="source/01-figures/Shapes_Demo.png" align="left" hspace="8" vspace="2" width="120" height="120"></a> [eProsima Shapes Demo Analytics](https://eprosima-shapes-demo.readthedocs.io/en/latest/)
+You can find all the library's source code on our [GitHub repository](https://github.com/eProsima/Fast-DDS).
 
-*eProsima Shapes Demo* is an application that Publishes and Subscribes to shapes of
-different colors and sizes moving on a board. Each Shape conforms its
-own topic: Square, Triangle or Circle. A single instance of the Shapes
-Demo can publish on or subscribe to several topics at a time.
+The documentation is built using [Sphinx](https://www.sphinx-doc.org), and it is hosted at [Read the Docs](https://readthedocs.org).
+The online documentation generated with this project can be found in [eProsima projects documentation index](https://docs.eprosima.com/).
 
+## Installation Guide
 
-## <a href="https://micro-xrce-dds.readthedocs.io/en/latest/"><img alt="eProsima Micro XRCE-DDS" src="source/01-figures/Micro_XRCE-DDS.png" align="left" hspace="8" vspace="2" width="120" height="120"> </a> [eProsima Micro XRCE-DDS](https://micro-xrce-dds.readthedocs.io/en/latest/)
+1. In order to build and test the documentation, some dependencies must be installed beforehand:
 
-*eProsima Micro XRCE-DDS* implements DDS-XRCE protocol specified in the DDS for
-*eXtremely Resource Constrained Environments* proposal submitted to the Object Management Group (OMG) consortium.
+    ```bash
+    sudo apt update
+    sudo apt install -y \
+        git \
+        python3 \
+        python3-pip \
+        python3-venv \
+        python3-sphinxcontrib.spelling \
+    ```
 
+1. Clone the repository
 
-## <a href="https://integration-services.readthedocs.io/en/latest/"><img alt="eProsima Integration Service" src="source/01-figures/Integration_Services.png" align="left" hspace="8" vspace="2" width="120" height="120"> </a> [eProsima Integration Service](https://integration-services.readthedocs.io/en/latest/)
+    ```bash
+    cd ~
+    git clone git@github.com:eProsima/all-docs.git all-docs
+    ```
 
-*eProsima Integration Service* is a library based on [eProsima Fast DDS](https://fast-dds.docs.eprosima.com/en/latest/)
-for creating parameterized communication bridges between different systems, services, and protocols.
-It is also able to perform transformations over the over the messages such as customized routing and mapping.
+1. Create a virtual environment and install python3 dependencies
 
+    ```bash
+    cd ~/all-docs
+    python3 -m venv all-docs-venv
+    source all-docs-venv/bin/activate
+    pip3 install -r docs/requirements.txt
+    ```
 
-## <a href="https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf"><img alt="eProsima RPC over DDS" src="source/01-figures/RPC_over_DDS.png" align="left" hspace="8" vspace="2" width="120" height="120"> [eProsima RPC over DDS](https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf)
+## Getting Started
 
-*eProsima RPC over DDS* is a high performance Remote Procedure Call (RPC) framework. It combines a software stack
-with a code generation engine to build services that work efficiently in several platforms and programming languages.
+To generate the documentation in a HTML format for a specific branch of eProsima Shapes Demo run:
 
+```bash
+cd ~/all-docs
+source all-docs-venv/bin/activate
+make html
+```
 
-## <a href="https://www.eprosima.com/docs/fast-buffers/0.3.0/pdf/User-Manual.pdf"><img alt="eProsima Fast Buffers" src="source/01-figures/Fast_Buffers.png" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Fast Buffers](https://www.eprosima.com/docs/fast-buffers/0.3.0/pdf/User-Manual.pdf)
+## Generating documentation in other formats
 
-*eProsima Fast Buffers* is an open source serialization engine optimized for performance, beating alternatives
-such as Apache Thrift and Google Protocol Buffers in both Simple and Complex Structures.
+The documentation can be generated in several formats such as HTML, PDF, LaTex, etc. For a complete list of targets run:
 
+```bash
+cd ~/all-docs
+make help
+```
 
-## <a href="https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf"><img alt="eProsima Non-Intrusive DDS" src="source/01-figures/Non-Intrusive_DDS_Recorder.png" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Non-Intrusive DDS Recorder](https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf)
+Once you have selected a format, generate the documentation with:
 
-*eProsima Non-Intrusive DDS Recorder* is a tool to record all the DDS traffic in the network, using a non-intrusive
-mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
-or service, ensuring the recording the real behavior and timing.
+```bash
+cd ~/all-docs
+source all-docs-venv/bin/activate
+make <output_format>
+```
 
+## Running documentation tests
 
-## <a href="https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf"><img alt="eProsima Dynamic Fast Buffers" src="source/01-figures/Dynamic_Fast_Buffers.png" align="left" hspace="8" vspace="2" width="120" height="120"></a> [eProsima Dynamic Fast Buffers](https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf)
+This repository provides a set of tests that verify that:
 
-*eProsima Dynamic Fast Buffers* is an open source high-performance serialization library using a different
-approach to the traditional serialization frameworks. Data types are defined through a friendly API directly in the
-user application code, and the serialization support is generated at runtime.
+1. The RST follows the style guidelines
+1. There are no spelling errors
+1. The HTML is built correctly
 
+Run the tests by:
 
-## <a href="https://eprosima-discovery-server.readthedocs.io/en/latest/"><img alt="eProsima Discovery Server" src="source/01-figures/Discovery_Server.png" align="left" hspace="8" vspace="2" width="120" height="120" ></a> [eProsima Discovery Server](https://eprosima-discovery-server.readthedocs.io/en/latest/)
-
-*eProsima Discovery Server* is an application that simplifies the use and testing of the new
-[eProsima Fast DDS](https://fast-dds.docs.eprosima.com/en/latest/) discovery capabilities.
-*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
-
-- extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-- speeds up the discovery-stage in a large number of participants scenarios.
+```bash
+cd ~/all-docs
+source all-docs-venv/bin/activate
+make test
+```

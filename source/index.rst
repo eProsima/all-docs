@@ -6,13 +6,13 @@
 eProsima project documentation index
 ====================================
 
-eProsima is focused in networking middleware and tools for high performance distributed systems and our products are
+eProsima is focused on developing middleware and tools for high performance distributed systems and our products are
 customer driven.
 Over the years we have excelled in several areas of expertise: low latency, high throughput, small footprint, low
 bandwidth consumption, optimum protocol, low CPU use, etc., working under various scenarios, from high-performance
 systems with high speed reliable links, to small devices connected over unreliable radio links.
 
-.. image:: http://www.eprosima.com/images/boxes/Fast_RTPS_box200w.png
+.. image:: /01-figures/Fast_DDS.png
     :height: 70
     :width: 70
     :align: left
@@ -26,7 +26,7 @@ systems with high speed reliable links, to small devices connected over unreliab
 framework to share data in distributed systems using a decoupled model
 based on Publishers, Subscribers, and Data Topics.
 
-.. image:: https://www.eprosima.com/images/screenshots/eProsima-Shapes-Demo.png
+.. image:: /01-figures/Shapes_Demo.png
     :height: 70
     :width: 70
     :align: left
@@ -36,12 +36,12 @@ based on Publishers, Subscribers, and Data Topics.
 `eProsima Shapes Demo`_
 ---------------------------------
 
-*eProsima Shapes Demo* is an application that Publishes and Subscribes to shapes of
+*eProsima Shapes Demo* is an *eProsima Fast DDS* application that Publishes and Subscribes to shapes of
 different colors and sizes moving on a board. Each Shape conforms its
 own topic: Square, Triangle or Circle. A single instance of the Shapes
 Demo can publish on or subscribe to several topics at a time.
 
-..  image:: logo.png
+.. image:: /01-figures/Micro_XRCE-DDS.png
     :height: 70
     :width: 70
     :align: left
@@ -55,7 +55,7 @@ Demo can publish on or subscribe to several topics at a time.
 DDS for *eXtremely Resource Constrained Environments* proposal submitted
 to the Object Management Group (OMG) consortium.
 
-..  image:: logo.png
+.. image:: /01-figures/Integration_Services.png
     :height: 70
     :width: 70
     :align: left
@@ -70,7 +70,7 @@ creating parameterized communication bridges between different systems,
 services, and protocols. It is also able to perform transformations over
 the over the messages such as customized routing and mapping.
 
-..  image:: http://www.eprosima.com/images/boxes/RPC_over_DDS_box200.png
+.. image:: /01-figures/RPC_over_DDS.png
     :height: 70
     :width: 70
     :align: left
@@ -83,7 +83,7 @@ the over the messages such as customized routing and mapping.
 *eProsima RPC over DDS* is a high performance Remote Procedure Call (RPC) framework. It combines a software stack
 with a code generation engine to build services that work efficiently in several platforms and programming languages.
 
-..  image:: https://www.eprosima.com/images/boxes/Fast_Buffers_box200b.png
+.. image:: /01-figures/Fast_Buffers.png
     :height: 70
     :width: 70
     :align: left
@@ -96,7 +96,7 @@ with a code generation engine to build services that work efficiently in several
 *eProsima Fast Buffers* is an open source serialization engine optimized for performance, beating alternatives
 such as Apache Thrift and Google Protocol Buffers in both Simple and Complex Structures.
 
-..  image:: logo.png
+.. image:: /01-figures/Non-Intrusive_DDS_Recorder.png
     :height: 70
     :width: 70
     :align: left
@@ -110,7 +110,7 @@ such as Apache Thrift and Google Protocol Buffers in both Simple and Complex Str
 mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
 or service, ensuring the recording the real behavior and timing.
 
-..  image:: logo.png
+.. image:: /01-figures/Dynamic_Fast_Buffers.png
     :height: 70
     :width: 70
     :align: left
@@ -124,7 +124,7 @@ or service, ensuring the recording the real behavior and timing.
 approach to the traditional serialization frameworks. Data types are defined through a friendly API directly in the
 user application code, and the serialization support is generated at runtime.
 
-..  image:: logo.png
+.. image:: /01-figures/Discovery_Server.png
     :height: 70
     :width: 70
     :align: left
@@ -138,8 +138,8 @@ user application code, and the serialization support is generated at runtime.
 discovery capabilities.
 *eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
 
-- extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-- speeds up the discovery-stage in a large number of participants scenarios.
+    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+    - speeds up the discovery-stage in a large number of participants scenarios.
 
 
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
