@@ -29,7 +29,7 @@ Demo can publish on or subscribe to several topics at a time.
 *eXtremely Resource Constrained Environments* proposal submitted to the Object Management Group (OMG) consortium.
 
 
-## <a href="https://integration-services.readthedocs.io/en/latest/"><img alt="eProsima Integration Services" src="source/01-figures/Integration_Services.png" align="left" hspace="8" vspace="2" width="120" height="120"> </a> [eProsima Integration Services](https://integration-services.readthedocs.io/en/latest/)
+## <a href="https://integration-services.readthedocs.io/en/latest/"><img alt="eProsima Integration Service" src="source/01-figures/Integration_Services.png" align="left" hspace="8" vspace="2" width="120" height="120"> </a> [eProsima Integration Service](https://integration-services.readthedocs.io/en/latest/)
 
 *eProsima Integration Service* is a library based on [eProsima Fast DDS](https://fast-dds.docs.eprosima.com/en/latest/)
 for creating parameterized communication bridges between different systems, services, and protocols.

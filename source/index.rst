@@ -59,10 +59,10 @@ to the Object Management Group (OMG) consortium.
     :height: 70
     :width: 70
     :align: left
-    :target: `eProsima Integration Services`_
+    :target: `eProsima Integration Service`_
 
 ----------------------------------
-`eProsima Integration Services`_
+`eProsima Integration Service`_
 ----------------------------------
 
 *eProsima Integration Service* is a library based on `eProsima Fast DDS`_ for
@@ -145,7 +145,7 @@ discovery capabilities.
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
 .. _eProsima Shape Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
-.. _eProsima Integration Services: https://integration-services.readthedocs.io/en/latest/
+.. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
 .. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
 .. _eProsima Fast Buffers: https://www.eprosima.com/docs/fast-buffers/0.3.0/pdf/User-Manual.pdf
 .. _eProsima Non-Intrusive DDS Recorder:    https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
