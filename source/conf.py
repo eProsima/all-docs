@@ -49,6 +49,19 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
 ]
+try:
+    import sphinxcontrib.spelling  # noqa: F401
+    extensions.append('sphinxcontrib.spelling')
+
+    # spelling_word_list_filename = 'spelling_wordlist.txt'
+    spelling_word_list_filename = [
+        'spelling_wordlist.txt',
+    ]
+
+    from sphinxcontrib.spelling.filters import ContractionFilter
+    spelling_filters = [ContractionFilter]
+except ImportError:
+    pass
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -105,7 +118,7 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-html_context = {        
+html_context = {
 		'css_files': [
             '_static/css/fiware_readthedocs.css', #logo
 			],
