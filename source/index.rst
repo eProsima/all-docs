@@ -1,10 +1,8 @@
-.. all-docs documentation master file, created by
-   sphinx-quickstart on Tue Dec 18 09:46:32 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. raw:: html
 
-eProsima project documentation index
-====================================
+  <h1>
+    eProsima documentation index
+  </h1>
 
 eProsima is focused on developing middleware and tools for high performance distributed systems and our products are
 customer driven.
@@ -35,7 +33,7 @@ based on Publishers, Subscribers, and Data Topics.
     :width: 70
     :align: left
     :alt: eProsima Shape Demo
-    :target: `eProsima Shape Demo`_
+    :target: `eProsima Shapes Demo`_
 
 `eProsima Shapes Demo`_
 ---------------------------------
@@ -161,7 +159,7 @@ discovery capabilities.
 
 
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
-.. _eProsima Shape Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
+.. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
 .. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf

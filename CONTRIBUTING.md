@@ -8,7 +8,7 @@ There are two ways to contribute to this project:
 * [Opening an issue](#opening-an-issue).
 * [Submitting a pull request](#submitting-a-pull-request).
 
-Furthermore, this document also provide the contributor with a [Project structure](#project-structure) definition, and with a [Style guide](#style-guide) to ease the writing process.
+Furthermore, this document also provide the contributor with a [Style guide](#style-guide) to ease the writing process.
 
 ## Opening an issue
 
@@ -35,7 +35,7 @@ Avoid pull requests where several features or functionalities are documented at 
 If you have many contributions, please split them in different pull requests.
 1. Submit you pull requests in separate branches.
 As for branch names, we normally use `features/*` for documentation expansions or refactors, `hotfix/*` for small fixes, and `bugfix/*` for larger parts that do not reflect reality and need to be corrected.
-1. Stick to the [Project structure](#project-structure) and [Style guide](#style-guide).
+1. Stick to the [Style guide](#style-guide).
 1. Test your changes before submission, and only submit "green" pull requests.
 Our Continuous Integration will still run the tests, but this way the process becomes smoother and the "Fixing errors" commits and re-runs are avoided.
 If you need any help setting up, please let us know by opening an issue.

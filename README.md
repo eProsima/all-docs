@@ -28,6 +28,12 @@ You can find all the library's source code on our [GitHub repository](https://gi
 The documentation is built using [Sphinx](https://www.sphinx-doc.org), and it is hosted at [Read the Docs](https://readthedocs.org).
 The online documentation generated with this project can be found in [eProsima projects documentation index](https://docs.eprosima.com/).
 
+1. [Installation Guide](#installation-guide)
+1. [Getting Started](#getting-started)
+1. [Generating documentation in other formats](#generating-documentation-in-other-formats)
+1. [Running documentation tests](#running-documentation-tests)
+1. [Contributing](#contributing)
+
 ## Installation Guide
 
 1. In order to build and test the documentation, some dependencies must be installed beforehand:
@@ -100,3 +106,7 @@ cd ~/all-docs
 source all-docs-venv/bin/activate
 make test
 ```
+
+## Contributing
+
+If you are interested in making some contributions, either in the form of an issue or a pull request, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
