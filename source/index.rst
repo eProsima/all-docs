@@ -1,8 +1,14 @@
+.. image::  /01-figures/enhanced_logo.png
+    :align: center
+    :alt: eProsima - The middleware experts
+    :target: `eProsima website`_
+
 .. raw:: html
 
-  <h1>
-    eProsima documentation index
-  </h1>
+    <br><br><br><br>
+    <h1>
+        eProsima documentation index
+    </h1>
 
 eProsima is focused on developing middleware and tools for high performance distributed systems and our products are
 customer driven.
@@ -12,13 +18,6 @@ systems with high speed reliable links, to small devices connected over unreliab
 
 ------------------------------------------------------------------------------------------------------------------------
 
-.. image::  http://www.eprosima.com/images/icons/eProsima_Fast_DDS.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Fast DDS
-    :target: `eProsima Fast DDS`_
-
 `eProsima Fast DDS`_
 ----------------------
 
@@ -27,13 +26,6 @@ framework to share data in distributed systems using a decoupled model
 based on Publishers, Subscribers, and Data Topics.
 
 ------------------------------------------------------------------------------------------------------------------------
-
-.. image::  http://www.eprosima.com/images/icons/eProsima_Shape_Demo.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Shape Demo
-    :target: `eProsima Shapes Demo`_
 
 `eProsima Shapes Demo`_
 ---------------------------------
@@ -45,13 +37,6 @@ Demo can publish on or subscribe to several topics at a time.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-.. image::  http://www.eprosima.com/images/icons/eProsima_Micro_XRCE-DDS.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Micro XRCE-DDS
-    :target: `eProsima Micro XRCE-DDS`_
-
 `eProsima Micro XRCE-DDS`_
 ----------------------------
 
@@ -60,13 +45,6 @@ DDS for *eXtremely Resource Constrained Environments* proposal submitted
 to the Object Management Group (OMG) consortium.
 
 ------------------------------------------------------------------------------------------------------------------------
-
-.. image::  http://www.eprosima.com/images/icons/eProsima_Integration_Service.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Integration Service
-    :target: `eProsima Integration Service`_
 
 `eProsima Integration Service`_
 ----------------------------------
@@ -78,13 +56,6 @@ the over the messages such as customized routing and mapping.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-.. image::  http://www.eprosima.com/images/icons/eProsima_RPC_over_DDS.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima RPC over DDS
-    :target: `eProsima RPC over DDS`_
-
 `eProsima RPC over DDS`_
 ----------------------------------
 
@@ -93,13 +64,6 @@ with a code generation engine to build services that work efficiently in several
 
 ------------------------------------------------------------------------------------------------------------------------
 
-.. image::  http://www.eprosima.com/images/icons/eProsima_Fast_Buffers.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Fast Buffers
-    :target: `eProsima Fast Buffers`_
-
 `eProsima Fast Buffers`_
 ----------------------------------
 
@@ -107,13 +71,6 @@ with a code generation engine to build services that work efficiently in several
 such as Apache Thrift and Google Protocol Buffers in both Simple and Complex Structures.
 
 ------------------------------------------------------------------------------------------------------------------------
-
-.. image::  http://www.eprosima.com/images/icons/eProsima_Non-Intrusive_DDS_Recorder.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Non-Intrusive DDS Recorder
-    :target: `eProsima Non-Intrusive DDS Recorder`_
 
 `eProsima Non-Intrusive DDS Recorder`_
 ----------------------------------------
@@ -124,13 +81,6 @@ or service, ensuring the recording the real behavior and timing.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-.. image::  http://www.eprosima.com/images/icons/eProsima_Dynamic_Fast_Buffers.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Dynamic Fast Buffers
-    :target: `eProsima Dynamic Fast Buffers`_
-
 `eProsima Dynamic Fast Buffers`_
 ----------------------------------------
 
@@ -139,13 +89,6 @@ approach to the traditional serialization frameworks. Data types are defined thr
 user application code, and the serialization support is generated at runtime.
 
 ------------------------------------------------------------------------------------------------------------------------
-
-.. image::  http://www.eprosima.com/images/icons/eProsima_Discovery_Server.png
-    :height: 70
-    :width: 70
-    :align: left
-    :alt: eProsima Discovery Server
-    :target: `eProsima Discovery Server`_
 
 `eProsima Discovery Server`_
 ----------------------------------------
@@ -158,6 +101,7 @@ discovery capabilities.
     - speeds up the discovery-stage in a large number of participants scenarios.
 
 
+.. _eProsima website: https://www.eprosima.com/
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
 .. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
