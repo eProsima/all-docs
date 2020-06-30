@@ -27,16 +27,6 @@ based on Publishers, Subscribers, and Data Topics.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-`eProsima Shapes Demo`_
----------------------------------
-
-*eProsima Shapes Demo* is an *eProsima Fast DDS* application that Publishes and Subscribes to shapes of
-different colors and sizes moving on a board. Each Shape conforms its
-own topic: Square, Triangle or Circle. A single instance of the Shapes
-Demo can publish on or subscribe to several topics at a time.
-
-------------------------------------------------------------------------------------------------------------------------
-
 `eProsima Micro XRCE-DDS`_
 ----------------------------
 
@@ -56,6 +46,28 @@ the over the messages such as customized routing and mapping.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Discovery Server`_
+----------------------------------------
+
+*eProsima Discovery Server* is an application that simplifies the use and testing of the new `eProsima Fast DDS`_
+discovery capabilities.
+*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
+
+    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+    - speeds up the discovery-stage in a large number of participants scenarios.
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima Shapes Demo`_
+---------------------------------
+
+*eProsima Shapes Demo* is an *eProsima Fast DDS* application that Publishes and Subscribes to shapes of
+different colors and sizes moving on a board. Each Shape conforms its
+own topic: Square, Triangle or Circle. A single instance of the Shapes
+Demo can publish on or subscribe to several topics at a time.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima RPC over DDS`_
 ----------------------------------
 
@@ -72,15 +84,6 @@ such as Apache Thrift and Google Protocol Buffers in both Simple and Complex Str
 
 ------------------------------------------------------------------------------------------------------------------------
 
-`eProsima Non-Intrusive DDS Recorder`_
-----------------------------------------
-
-*eProsima Non-Intrusive DDS Recorder* is a tool to record all the DDS traffic in the network, using a non-intrusive
-mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
-or service, ensuring the recording the real behavior and timing.
-
-------------------------------------------------------------------------------------------------------------------------
-
 `eProsima Dynamic Fast Buffers`_
 ----------------------------------------
 
@@ -90,15 +93,13 @@ user application code, and the serialization support is generated at runtime.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-`eProsima Discovery Server`_
+`eProsima Non-Intrusive DDS Recorder`_
 ----------------------------------------
 
-*eProsima Discovery Server* is an application that simplifies the use and testing of the new `eProsima Fast DDS`_
-discovery capabilities.
-*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
+*eProsima Non-Intrusive DDS Recorder* is a tool to record all the DDS traffic in the network, using a non-intrusive
+mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
+or service, ensuring the recording the real behavior and timing.
 
-    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-    - speeds up the discovery-stage in a large number of participants scenarios.
 
 
 .. _eProsima website: https://www.eprosima.com/
