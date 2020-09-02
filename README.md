@@ -61,7 +61,7 @@ The online documentation generated with this project can be found in [eProsima p
     cd ~/all-docs
     python3 -m venv all-docs-venv
     source all-docs-venv/bin/activate
-    pip3 install -r docs/requirements.txt
+    pip3 install -r source/requirements.txt
     ```
 
 ## Getting Started
