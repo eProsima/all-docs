@@ -76,6 +76,14 @@ with a code generation engine to build services that work efficiently in several
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Fast CDR`_
+----------------------------------
+
+*eProsima FastCDR* is a C++ library that provides two serialization mechanisms. One is the standard CDR serialization
+mechanism, while the other is a faster implementation that modifies the standard.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Fast Buffers`_
 ----------------------------------
 
@@ -108,6 +116,7 @@ or service, ensuring the recording the real behavior and timing.
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
 .. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
+.. _eProsima Fast CDR: ../resources/Fast-CDR-v1_0_15.pdf
 .. _eProsima Fast Buffers: https://www.eprosima.com/docs/fast-buffers/0.3.0/pdf/User-Manual.pdf
 .. _eProsima Non-Intrusive DDS Recorder:    https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima Dynamic Fast Buffers: https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf
