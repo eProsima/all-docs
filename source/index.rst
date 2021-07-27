@@ -46,6 +46,15 @@ the over the messages such as customized routing and mapping.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Fast DDS Statistics Backend`_
+----------------------------------------
+
+*eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the 
+`eProsima Fast DDS`_ Statistics module, and generate statistical information
+that applications can query.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Discovery Server`_
 ----------------------------------------
 
@@ -121,3 +130,4 @@ or service, ensuring the recording the real behavior and timing.
 .. _eProsima Non-Intrusive DDS Recorder:    https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima Dynamic Fast Buffers: https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf
 .. _eProsima Discovery Server: https://eprosima-discovery-server.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
