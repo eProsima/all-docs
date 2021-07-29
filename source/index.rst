@@ -46,10 +46,22 @@ the over the messages such as customized routing and mapping.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Fast DDS Monitor`_
+------------------------------
+
+*eProsima Fast DDS Monitor* is a graphical desktop application aimed at monitoring DDS environments deployed using the
+`eProsima Fast DDS`_ library.
+Thus, the user can monitor in real time the status of publication/subscription communications between DDS entities.
+They can also choose from a wide variety of communication parameters to be measured (latency, throughput, packet
+loss, etc.), as well as record and compute in real time statistical measurements on these parameters (mean, variance,
+standard deviation, etc.).
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Fast DDS Statistics Backend`_
 ----------------------------------------
 
-*eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the 
+*eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the
 `eProsima Fast DDS`_ Statistics module, and generate statistical information
 that applications can query.
 
@@ -131,3 +143,4 @@ or service, ensuring the recording the real behavior and timing.
 .. _eProsima Dynamic Fast Buffers: https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf
 .. _eProsima Discovery Server: https://eprosima-discovery-server.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
