@@ -3,7 +3,8 @@
 Docker Installation and Usage
 -----------------------------
 
-To run this container you need Docker installed. From a terminal run
+To run *eProsima Suite* container, Docker is required.
+From a terminal run
 
 .. code-block:: bash
 
@@ -15,7 +16,7 @@ To load this image into your Docker repository, from a terminal run
 
  $ docker load -i ubuntu-eprosima-suite:<FastDDS-Version>.tar
 
-You can run this Docker container as follows
+*eProsima Suite* Docker container can be run as follows:
 
 .. code-block:: bash
 
@@ -23,7 +24,7 @@ You can run this Docker container as follows
  $ docker run -it --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
  ubuntu-eprosima-suite:<FastDDS-Version>
 
-From the resulting Bash Shell you can run each feature.
+Each feature can be run from the resulting Bash Shell.
 
 .. _fast_dds_suite_examples:
 
@@ -31,14 +32,15 @@ Fast DDS Examples
 -----------------
 
 Included in this Docker container is a set of binary examples that showcase several functionalities of the
-Fast DDS libraries. These examples' path can be accessed from a terminal by typing
+Fast DDS library.
+These examples' path can be accessed from a terminal by typing
 
 .. code-block:: bash
 
  $ goToExamples
 
-From this folder you can access all Fast DDS' examples, both for DDS and RTPS. We detail the steps to launch two such
-examples below.
+This will change the working directory to a location containing several examples, both for DDS and RTPS.
+Below are the steps to launch two such examples.
 
 Hello World Example
 ^^^^^^^^^^^^^^^^^^^
@@ -54,8 +56,8 @@ This is a minimal example that will perform a Publisher/Subscriber match and sta
  select-layout even-vertical
 
 This example is not constrained to the current image instance, meaning that it is possible to run several instances of
-this container to check the communication between them. From one terminal you could launch an image and, on the
-presented shell, run:
+this container to check the communication between them.
+From one terminal you could launch an image and, on the presented shell, run:
 
 .. code-block:: bash
 
@@ -74,8 +76,8 @@ And then from another terminal with another instance run the following:
 Benchmark Example
 ^^^^^^^^^^^^^^^^^
 
-This example creates either a Publisher or a Subscriber and, after a successful match, starts sending samples. After a
-few seconds the process that launched the Publisher will show a report with the number of samples transmitted.
+This example creates either a Publisher or a Subscriber and, after a successful match, starts sending samples.
+After a few seconds the process that launched the Publisher will show a report with the number of samples transmitted.
 
 On the subscriber side, run:
 

@@ -151,4 +151,3 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
 .. _eProsima Suite: eprosima-suite/intro.html
-
