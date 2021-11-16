@@ -133,7 +133,7 @@ To launch the Micro XRCE-DDS Agent, from a terminal run
 
 .. code-block:: bash
 
- $ MicroXRCEAgent udp4 -p 2019 &
+ $ MicroXRCEAgent udp4 -p 2019 -r /root/agent.refs &
 
 With the Agent started, you can now run the ShapesDemo
 
