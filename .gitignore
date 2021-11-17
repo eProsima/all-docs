@@ -23,3 +23,6 @@ compile_commands.json
 ### VSCode ###
 # vscode user settings
 .vscode
+
+### Virtual environment
+all-docs-venv
