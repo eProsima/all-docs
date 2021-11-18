@@ -129,10 +129,10 @@ user application code, and the serialization support is generated at runtime.
 mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
 or service, ensuring the recording the real behavior and timing.
 
-`eProsima Suite`_
+`eProsima DDS Suite`_
 --------------------------------------
 
-:ref:`eProsima Suite <eprosima_suite>` is a Docker image distributed by eProsima to provide a convenient demonstration
+:ref:`eProsima DDS Suite <dds_suite>` is a Docker image distributed by eProsima to provide a convenient demonstration
 for several eProsima products.
 This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_ and
 `eProsima Micro XRCE-DDS`_.
@@ -150,4 +150,4 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 .. _eProsima Discovery Server: https://eprosima-discovery-server.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
-.. _eProsima Suite: eprosima-suite/intro.html
+.. _eProsima DDS Suite: dds-suite/intro.html
