@@ -130,10 +130,10 @@ mechanism allowing the user to test, analyze or log the DDS distributed systems 
 or service, ensuring the recording the real behavior and timing.
 
 `eProsima DDS Suite`_
---------------------------------------
+---------------------
 
-:ref:`eProsima DDS Suite <dds_suite>` is a Docker image distributed by eProsima to provide a convenient demonstration
-for several eProsima products.
+:ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
+demonstration for several eProsima products.
 This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_ and
 `eProsima Micro XRCE-DDS`_.
 

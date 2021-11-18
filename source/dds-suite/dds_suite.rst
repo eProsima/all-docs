@@ -14,7 +14,7 @@ To load this image into your Docker repository, from a terminal run
 
 .. code-block:: bash
 
-    docker load -i ubuntu-eprosima-suite:<version>.tar
+    docker load -i ubuntu-eprosima-dds-suite:<version>.tar
 
 *eProsima DDS Suite* Docker container can be run as follows:
 
@@ -30,7 +30,7 @@ To load this image into your Docker repository, from a terminal run
 
 Each feature can be run from the resulting Bash Shell.
 
-.. _fast_dds_suite_examples:
+.. _eprosima_dds_suite_examples:
 
 Fast DDS Examples
 -----------------
@@ -100,7 +100,7 @@ On the publisher side, run:
     cd Benchmark/bin
     ./Benchmark publisher udp
 
-.. _fast_dds_suite_shapes_demo:
+.. _eprosima_dds_suite_shapes_demo:
 
 Shapes Demo
 -----------
@@ -114,7 +114,7 @@ To launch the *Shapes Demo*, from a terminal run:
 *eProsima Shapes Demo* usage information can be found on the `Shapes Demo documentation
 <https://eprosima-shapes-demo.readthedocs.io/en/latest/first_steps/first_steps.html>`_.
 
-.. _fast_dds_suite_monitor:
+.. _eprosima_dds_suite_monitor:
 
 Fast DDS Monitor
 ----------------

@@ -1,6 +1,6 @@
 :orphan:
 
-.. _dds_suite:
+.. _eprosima_dds_suite:
 
 eProsima DDS Suite
 ==================
@@ -11,20 +11,20 @@ It can be downloaded from `eProsima's downloads page <https://eprosima.com/index
 
 This Docker image contains the complete *eProsima DDS Suite*, which includes:
 
-- :ref:`eProsima Fast DDS library and examples <fast_dds_suite_examples>`: *Fast DDS* library bundled with several
+- :ref:`eProsima Fast DDS library and examples <eprosima_dds_suite_examples>`: *Fast DDS* library bundled with several
   examples that showcase a variety of capabilities of eProsima's *Fast DDS* implementation.
   For more information about *Fast DDS* please refer to `Fast DDS documentation page
   <https://fast-dds.docs.eprosima.com/>`_
 
-- :ref:`Shapes Demo <fast_dds_suite_shapes_demo>`: eProsima *Shapes Demo* is an application in which Publishers and
+- :ref:`Shapes Demo <eprosima_dds_suite_shapes_demo>`: eProsima *Shapes Demo* is an application in which Publishers and
   Subscribers create and display shapes of different colors and sizes moving on a board.
   Each shape refers to its own topic: Square, Triangle or Circle.
   A single instance of the eProsima *Shapes Demo* can publish on and/or subscribe to several topics at a time.
   For more information about *Shapes Demo* please refer to `Shapes Demo documentation page
   <https://eprosima-shapes-demo.readthedocs.io/>`_.
 
-- :ref:`Fast DDS Monitor <fast_dds_suite_monitor>`: eProsima *Fast DDS Monitor* is a graphical desktop application aimed
-  at monitoring DDS environments deployed using the *eProsima Fast DDS* library.
+- :ref:`Fast DDS Monitor <eprosima_dds_suite_monitor>`: eProsima *Fast DDS Monitor* is a graphical desktop application
+  aimed at monitoring DDS environments deployed using the *eProsima Fast DDS* library.
   Thus, the user can monitor in real time the status of publication/subscription communications between DDS entities.
   They can also choose from a wide variety of communication parameters to be measured (latency, throughput,
   packet loss, etc.), as well as record and compute in real time statistical measurements on these parameters
@@ -44,4 +44,4 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
 .. toctree::
     :caption: Getting started
 
-    eprosima_suite
+    dds_suite
