@@ -3,7 +3,7 @@
 Docker Installation and Usage
 -----------------------------
 
-To run *eProsima Suite* container, Docker is required.
+To run *eProsima DDS Suite* container, Docker is required.
 From a terminal run
 
 .. code-block:: bash
@@ -14,9 +14,9 @@ To load this image into your Docker repository, from a terminal run
 
 .. code-block:: bash
 
-    docker load -i ubuntu-eprosima-suite:<version>.tar
+    docker load -i ubuntu-eprosima-dds-suite:<version>.tar
 
-*eProsima Suite* Docker container can be run as follows:
+*eProsima DDS Suite* Docker container can be run as follows:
 
 .. code-block:: bash
 
@@ -26,17 +26,17 @@ To load this image into your Docker repository, from a terminal run
         --privileged \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        ubuntu-eprosima-suite:<version>
+        ubuntu-eprosima-dds-suite:<version>
 
 Each feature can be run from the resulting Bash Shell.
 
-.. _fast_dds_suite_examples:
+.. _eprosima_dds_suite_examples:
 
 Fast DDS Examples
 -----------------
 
 Included in this Docker container is a set of binary examples that showcase several functionalities of the
-Fast DDS library.
+*Fast DDS* library.
 These examples' path can be accessed from a terminal by typing
 
 .. code-block:: bash
@@ -100,32 +100,32 @@ On the publisher side, run:
     cd Benchmark/bin
     ./Benchmark publisher udp
 
-.. _fast_dds_suite_shapes_demo:
+.. _eprosima_dds_suite_shapes_demo:
 
 Shapes Demo
 -----------
 
-To launch the Shapes Demo, from a terminal run
+To launch the *Shapes Demo*, from a terminal run:
 
 .. code-block:: bash
 
     ShapesDemo
 
-eProsima Shapes Demo usage information can be found on the `Shapes Demo documentation
+*eProsima Shapes Demo* usage information can be found on the `Shapes Demo documentation
 <https://eprosima-shapes-demo.readthedocs.io/en/latest/first_steps/first_steps.html>`_.
 
-.. _fast_dds_suite_monitor:
+.. _eprosima_dds_suite_monitor:
 
 Fast DDS Monitor
 ----------------
 
-To launch the Fast DDS Monitor, from a terminal run
+To launch the *Fast DDS Monitor*, from a terminal run:
 
 .. code-block:: bash
 
     fastdds_monitor
 
-eProsima Fast DDS Monitor User Manual can be located on the `Fast DDS Monitor documentation
+*eProsima Fast DDS Monitor* User Manual can be located on the `Fast DDS Monitor documentation
 <https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/initialize_monitoring.html>`_.
 
 
@@ -134,23 +134,23 @@ eProsima Fast DDS Monitor User Manual can be located on the `Fast DDS Monitor do
 eProsima Micro XRCE-DDS
 -----------------------
 
-To launch the Micro XRCE-DDS Agent, from a terminal run
+To launch the *Micro XRCE-DDS Agent*, from a terminal run:
 
 .. code-block:: bash
 
     MicroXRCEAgent udp4 -p 2019 -r /root/agent.refs &
 
-With the Agent started, you can now run the ShapesDemo
+With the Agent started, you can now run the *Shapes Demo* application:
 
 .. code-block:: bash
 
     ShapesDemo &
 
-And launch the ShapeDemoClient, a demo client used to send data to the ShapesDemo via the Micro XRCE-DDS Agent.
+And launch the ShapeDemoClient, a demo client used to send data to *Shapes Demo* via the *Micro XRCE-DDS Agent*.
 
 .. code-block:: bash
 
     ShapeDemoClient --udp4 127.0.0.1 2019
 
 Inside that client, you can now follow the steps detailed in the `eProsima XRCE-DDS Shapes Demo page
-<https://micro-xrce-dds.docs.eprosima.com/en/latest/shapes_demo.html>`_ to send data to the ShapesDemo.
+<https://micro-xrce-dds.docs.eprosima.com/en/latest/shapes_demo.html>`_ to send data to *Shapes Demo*.
