@@ -36,6 +36,41 @@ to the Object Management Group (OMG) consortium.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Fast DDS Monitor`_
+----------------------------------
+
+*eProsima Fast DDS monitor* is a graphical application for monitor a DDS network.
+It collects and displays instrumentation data from a Fast DDS running network.
+Its graphical interface is user-friendly, with all the capabilities needed to
+show all the statistical data received from a `eProsima Fast DDS Statistics Backend`_.
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima DDS Router`_
+----------------------------------
+
+*eProsima DDS Router* is an application based on `eProsima Fast DDS`_ that allows
+to connect DDS networks that belong to different LANs.
+It works as a bridge between two or more DDS isolated configurations, and transfer
+all the data from one to the other.
+This capability could be used to create a bridge between an internal LAN and
+external WAN communication, to allow DDS communication via internet.
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima Fast DDS Statistics Backend`_
+----------------------------------------
+
+*eProsima Fast DDS Statistics Backend* is a library based on `eProsima Fast DDS`_
+for collecting and storing instrumentation data received from a Fast DDS running network.
+It connects to a DDS network and receive vary data such as discovery data, physical data
+referring the machine where each process is running, latency and throughput communication
+data, etc.
+It is capable of retrieving the raw data received or calculating different statistical
+operations over it.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Integration Service`_
 ----------------------------------
 
@@ -51,10 +86,9 @@ the over the messages such as customized routing and mapping.
 
 *eProsima Discovery Server* is an application that simplifies the use and testing of the new `eProsima Fast DDS`_
 discovery capabilities.
-*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
-
-    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-    - speeds up the discovery-stage in a large number of participants scenarios.
+*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that
+extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+speeds up the discovery-stage in a large number of participants scenarios.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -112,3 +146,6 @@ or service, ensuring the recording the real behavior and timing.
 .. _eProsima Non-Intrusive DDS Recorder:    https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima Dynamic Fast Buffers: https://www.eprosima.com/docs/dynamic-fast-buffers/0.2.0/pdf/User-Manual.pdf
 .. _eProsima Discovery Server: https://eprosima-discovery-server.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
+.. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
