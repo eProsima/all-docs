@@ -67,6 +67,18 @@ that applications can query.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima DDS Router`_
+----------------------------------
+
+*eProsima DDS Router* is an application based on `eProsima Fast DDS`_ that allows
+to connect DDS networks that belong to different LANs.
+It works as a bridge between two or more DDS isolated configurations, and transfer
+all the data from one to the other.
+This capability could be used to create a bridge between an internal LAN and
+external WAN communication, to allow DDS communication via internet.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Discovery Server`_
 ----------------------------------------
 
@@ -151,3 +163,4 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
+.. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
