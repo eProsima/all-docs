@@ -127,7 +127,39 @@ To launch the *Fast DDS Monitor*, from a terminal run:
 
 *eProsima Fast DDS Monitor* User Manual can be located on the `Fast DDS Monitor documentation
 <https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/initialize_monitoring.html>`_.
+.. _eprosima_dds_router:
 
+.. _eprosima_dds_router:
+
+DDS Router
+----------
+
+In this example the DDS Router is configured to communicate a publisher and subscriber running in different DDS Domains.
+
+Run the following command to create the DDS Router *yaml* configuration file (``/config.yml``).
+
+.. code-block:: bash
+
+    echo "version: v2.0
+    participants:
+      - name: simple_dds_participant_0
+        kind: local
+        domain: 0
+      - name: simple_dds_participant_1
+        kind: local
+        domain: 1" > /config.yml
+
+Then execute the following command to run the Publisher in Domain 0, the Subscriber in Domain 1, and the
+DDS Router communicating both Domains.
+
+.. code-block:: bash
+
+    goToExamples
+    cd DDS/BasicConfigurationExample/bin
+    tmux new-session \
+        "ddsrouter --config-path /config.yml" \; \
+        split-window -h "./BasicConfigurationExample publisher --domain 0 --interval 1000 --transport udp" \; \
+        split-window -v "./BasicConfigurationExample subscriber --domain 1 --transport udp"
 
 .. _micro_xrce_dds:
 
