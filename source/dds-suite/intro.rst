@@ -32,6 +32,16 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
   For more information about *Fast DDS Monitor* please refer to `Fast DDS Monitor documentation page
   <https://fast-dds-monitor.readthedocs.io/>`_.
 
+- :ref:`DDS Router <eprosima_dds_router>`: eProsima DDS Router is an end-user software application that enables the
+  connection of distributed DDS networks.
+  That is, DDS entities such as publishers and subscribers deployed in one geographic location and using a dedicated
+  local network will be able to communicate with other DDS entities deployed in different geographic areas on their own
+  dedicated local networks as if they were all on the same network through the use of eProsima DDS Router.
+  This is achieved by deploying a DDS Router on an edge device of each local network so that the DDS Router routes DDS
+  traffic from one network to the other through WAN communication.
+  For more information about *DDS Router* please refer to
+  `DDS Router documentation website <https://eprosima-dds-router.readthedocs.io>`_.
+
 - :ref:`eProsima Micro XRCE-DDS <micro_xrce_dds>`:
   *eProsima Micro XRCE-DDS* is a software solution that allows communicating eXtremely Resource Constrained Environments
   (XRCEs) with an existing DDS network.

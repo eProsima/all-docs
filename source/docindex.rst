@@ -146,8 +146,8 @@ or service, ensuring the recording the real behavior and timing.
 
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
-This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_ and
-`eProsima Micro XRCE-DDS`_.
+This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
+`eProsima DDS Router`_, and `eProsima Micro XRCE-DDS`_.
 
 .. _eProsima website: https://www.eprosima.com/
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
