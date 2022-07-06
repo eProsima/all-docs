@@ -141,6 +141,18 @@ user application code, and the serialization support is generated at runtime.
 mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
 or service, ensuring the recording the real behavior and timing.
 
+------------------------------------------------------------------------------------------------------------------------
+
+`PlotJuggler eProsima Edition`_
+----------------------------------------
+
+*PlotJuggler eProsima Edition* is a tool based on PlotJuggler application to visualize DDS data by subscribing
+to selected topics in a DDS network.
+It uses Dynamic Types to introspect the data types and generate time series for every value in the topic.
+It also supports several features to interact with data series and layouts.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima DDS Suite`_
 ---------------------
 
@@ -164,3 +176,4 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
+.. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
