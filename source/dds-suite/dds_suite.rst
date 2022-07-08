@@ -128,7 +128,6 @@ To launch the *Fast DDS Monitor*, from a terminal run:
 *eProsima Fast DDS Monitor* User Manual can be located on the `Fast DDS Monitor documentation
 <https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/initialize_monitoring.html>`_.
 
-
 .. _eprosima_dds_router:
 
 DDS Router
@@ -187,15 +186,16 @@ And launch the ShapeDemoClient, a demo client used to send data to *Shapes Demo*
 Inside that client, you can now follow the steps detailed in the `eProsima XRCE-DDS Shapes Demo page
 <https://micro-xrce-dds.docs.eprosima.com/en/latest/shapes_demo.html>`_ to send data to *Shapes Demo*.
 
+.. _plotjuggler_eprosima_edition:
 
 PlotJuggler eProsima Edition
 ----------------------------
 
-To launch the PlotJuggler eProsima Edition, from a terminal run
+To launch the PlotJuggler eProsima Edition, from a terminal run:
 
 .. code-block:: bash
 
  $ plotjuggler
 
-eProsima PlotJuggler eProsima Edition usage information can be located on the `PlotJuggler eProsima Edition User Manual
+eProsima PlotJuggler eProsima Edition usage information can be found on the `PlotJuggler eProsima Edition User Manual
 <https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/>`_.

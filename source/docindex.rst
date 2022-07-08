@@ -146,9 +146,9 @@ or service, ensuring the recording the real behavior and timing.
 `PlotJuggler eProsima Edition`_
 ----------------------------------------
 
-*PlotJuggler eProsima Edition* is a tool based on PlotJuggler application to visualize DDS data by subscribing
-to selected topics in a DDS network.
-It uses Dynamic Types to introspect the data types and generate time series for every value in the topic.
+*PlotJuggler eProsima Edition* is a tool to visualize DDS data by subscribing to selected topics
+in a DDS network based on PlotJuggler.
+It uses Fast DDS Dynamic Types to introspect the data types and generate time series for every value in the topic.
 It also supports several features to interact with data series and layouts.
 
 ------------------------------------------------------------------------------------------------------------------------
