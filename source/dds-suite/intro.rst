@@ -51,6 +51,15 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
   For more information about *eProsima Micro XRCE-DDS* please refer to
   `eProsima Micro XRCE-DDS documentation page <https://micro-xrce-dds.docs.eprosima.com/>`_.
 
+- :ref:`PlotJuggler eProsima Edition <plotjuggler_eprosima_edition>`:
+  *eProsima Fast DDS Visualizer Plugin* is a plugin for the *PlotJuggler* application.
+  PlotJuggler is a graphical desktop application providing visualization features
+  of data series, time series, X-Y plots.
+  It also adds data management features, such as data import and export,
+  custom and built-in data manipulation functions, data series merges, etc.
+  Also, this software supports many different layouts, with dynamic, rich and user-friendly customization.
+  `PlotJuggler eProsima Edition documentation page <https://plotjuggler-fastdds-plugins.readthedocs.io>`_.
+
 .. toctree::
     :caption: Getting started
 
