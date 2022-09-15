@@ -1,9 +1,9 @@
 # Contribution Guidelines
 
-*Fast DDS-Docs* is an open source project for documenting the *Fast DDS* library and some related tools such as *Fast DDS-Gen*.
+eProsima documentations are open source projects for documenting the different tools and libraries provided by eProsima such as *Fast DDS*, *Fast DDS Monitor*, *DDS Router*, etc.
 In that sense, contributions to expand or improve the documentation are most welcome and encouraged; we just want the best documentation possible for our community.
 
-There are two ways to contribute to this project:
+There are two ways to contribute to the documentation projects:
 
 * [Opening an issue](#opening-an-issue).
 * [Submitting a pull request](#submitting-a-pull-request).
