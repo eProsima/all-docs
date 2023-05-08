@@ -105,7 +105,7 @@ On the publisher side, run:
 Fast DDS QoS Profiles Manager
 -----------------------------
 
-Fast DDS QoS Profiles Manager CLI can be directly call in the Docker container.
+Fast DDS QoS Profiles Manager CLI can be directly called in the Docker container.
 Please, run the following command to display the CLI usage:
 
 .. code-block:: bash

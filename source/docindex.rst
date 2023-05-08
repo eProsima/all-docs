@@ -141,7 +141,7 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 
 *eProsima Integration Service* is a library based on `eProsima Fast DDS`_ for creating parameterized communication
 bridges between different systems, services, and protocols.
-It is also able to perform transformations over the over the messages such as customized routing and mapping.
+It is also able to perform transformations over the messages such as customized routing and mapping.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -159,7 +159,7 @@ and programming languages.
 
 *eProsima Non-Intrusive DDS Recorder* is a tool to record all the DDS traffic in the network, using a non-intrusive
 mechanism allowing the user to test, analyze or log the DDS distributed systems without adding any new DDS participant
-or service, ensuring the recording the real behavior and timing.
+or service, ensuring the recording of the real behavior and timing.
 
 .. _eProsima website: https://www.eprosima.com/
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
