@@ -10,9 +10,9 @@
         eProsima documentation index
     </h1>
 
-eProsima is focused on developing middleware and tools for high performance distributed systems and our products are
+eProsima is focused on developing middleware and tools for high performance distributed systems and its products are
 customer driven.
-Over the years we have excelled in several areas of expertise: low latency, high throughput, small footprint, low
+Over the years, eProsima has excelled in several areas of expertise: low latency, high throughput, small footprint, low
 bandwidth consumption, optimum protocol, low CPU use, etc., working under various scenarios, from high-performance
 systems with high speed reliable links, to small devices connected over unreliable radio links.
 
@@ -21,9 +21,8 @@ systems with high speed reliable links, to small devices connected over unreliab
 `eProsima Fast DDS`_
 ----------------------
 
-*eProsima Fast DDS* is a high performance publish subscribe
-framework to share data in distributed systems using a decoupled model
-based on Publishers, Subscribers, and Data Topics.
+*eProsima Fast DDS* is a high performance publish subscribe framework to share data in distributed systems using a
+decoupled model based on Publishers, Subscribers, and Data Topics.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -91,21 +90,29 @@ external WAN communication, to allow DDS communication via internet.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Fast DDS QoS Profiles Manager`_
+-------------------------------------------
+
+*eProsima Fast DDS QoS Profiles Manager* is a tool suite for the generation of `eProsima Fast DDS`_ configuration files.
+The suite provides both a Graphical User Interface (GUI) and a Command Line Interface (CLI).
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Shapes Demo`_
 ---------------------------------
 
 *eProsima Shapes Demo* is an *eProsima Fast DDS* application that Publishes and Subscribes to shapes of
-different colors and sizes moving on a board. Each Shape conforms its
-own topic: Square, Triangle or Circle. A single instance of the Shapes
-Demo can publish on or subscribe to several topics at a time.
+different colors and sizes moving on a board.
+Each Shape conforms its own topic: Square, Triangle or Circle.
+A single instance of the Shapes Demo can publish on or subscribe to several topics at a time.
 
 ------------------------------------------------------------------------------------------------------------------------
 
 `eProsima Fast CDR`_
 ----------------------------------
 
-*eProsima FastCDR* is a C++ library that provides two serialization mechanisms. One is the standard CDR serialization
-mechanism, while the other is a faster implementation that modifies the standard.
+*eProsima FastCDR* is a C++ library that provides two serialization mechanisms.
+One is the standard CDR serialization mechanism, while the other is a faster implementation that modifies the standard.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -125,25 +132,25 @@ It also supports several features to interact with data series and layouts.
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
 This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
-`eProsima DDS Router`_, and `eProsima Micro XRCE-DDS`_.
+`eProsima DDS Router`_, `eProsima Fast DDS QoS Profiles Manager`_ and `eProsima Micro XRCE-DDS`_.
 
 ------------------------------------------------------------------------------------------------------------------------
 
 `eProsima Integration Service`_
 ----------------------------------
 
-*eProsima Integration Service* is a library based on `eProsima Fast DDS`_ for
-creating parameterized communication bridges between different systems,
-services, and protocols. It is also able to perform transformations over
-the over the messages such as customized routing and mapping.
+*eProsima Integration Service* is a library based on `eProsima Fast DDS`_ for creating parameterized communication
+bridges between different systems, services, and protocols.
+It is also able to perform transformations over the over the messages such as customized routing and mapping.
 
 ------------------------------------------------------------------------------------------------------------------------
 
 `eProsima RPC over DDS`_
 ----------------------------------
 
-*eProsima RPC over DDS* is a high performance Remote Procedure Call (RPC) framework. It combines a software stack
-with a code generation engine to build services that work efficiently in several platforms and programming languages.
+*eProsima RPC over DDS* is a high performance Remote Procedure Call (RPC) framework.
+It combines a software stack with a code generation engine to build services that work efficiently in several platforms
+and programming languages.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -162,6 +169,7 @@ or service, ensuring the recording the real behavior and timing.
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
 .. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
+.. _eProsima Fast DDS QoS Profiles Manager: https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/
 .. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
 .. _eProsima Fast CDR: https://www.eprosima.com/images/PDFs/Fast_CDR.pdf
 .. _Fast DDS Visualizer Plugin: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
