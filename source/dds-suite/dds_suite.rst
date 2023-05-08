@@ -100,6 +100,21 @@ On the publisher side, run:
     cd Benchmark/bin
     ./Benchmark publisher udp
 
+.. _eprosima_dds_suite_qos_profiles_manager:
+
+Fast DDS QoS Profiles Manager
+-----------------------------
+
+Fast DDS QoS Profiles Manager CLI can be directly call in the Docker container.
+Please, run the following command to display the CLI usage:
+
+.. code-block:: bash
+
+    fastddsqosprof -h
+
+*Fast DDS QoS Profiles Manager CLI* User Manual can be located on the `Fast DDS QoS Profiles Manager documentation
+<https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/rst/fastdds_qos_profiles_manager_cli/cli.html>`_.
+
 .. _eprosima_dds_suite_shapes_demo:
 
 Shapes Demo

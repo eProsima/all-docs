@@ -116,10 +116,10 @@ One is the standard CDR serialization mechanism, while the other is a faster imp
 
 ------------------------------------------------------------------------------------------------------------------------
 
-`Fast DDS Visualizer Plugin`_
+`PlotJuggler eProsima Edition`_
 ----------------------------------------
 
-*Fast DDS Visualizer Plugin* is a plugin for PlotJuggler application to visualize DDS data by subscribing to selected
+*PlotJuggler eProsima Edition* is a plugin for PlotJuggler application to visualize DDS data by subscribing to selected
 topics in a DDS network.
 It uses Fast DDS Dynamic Types to introspect the data types and generate time series for every value in the topic.
 It also supports several features to interact with data series and layouts.
@@ -172,7 +172,7 @@ or service, ensuring the recording the real behavior and timing.
 .. _eProsima Fast DDS QoS Profiles Manager: https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/
 .. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
 .. _eProsima Fast CDR: https://www.eprosima.com/images/PDFs/Fast_CDR.pdf
-.. _Fast DDS Visualizer Plugin: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
+.. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
 .. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
