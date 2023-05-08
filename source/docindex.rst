@@ -27,6 +27,17 @@ based on Publishers, Subscribers, and Data Topics.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima Safe DDS`_
+----------------------
+
+eProsima Safe DDS is a functionally safe, highly reliable, and efficient C++
+implementation of the DDS protocol, designed for critical applications
+in industries such as automotive, avionics, and medical devices,
+ensuring compliance with the most stringent functional
+safety standards like ISO 26262 ASIL D.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Micro XRCE-DDS`_
 ----------------------------
 
@@ -163,6 +174,7 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 
 .. _eProsima website: https://www.eprosima.com/
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
+.. _eProsima Safe DDS: https://safe-dds.docs.eprosima.com/
 .. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
