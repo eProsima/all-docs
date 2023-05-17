@@ -14,7 +14,12 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
 - :ref:`eProsima Fast DDS library and examples <eprosima_dds_suite_examples>`: *Fast DDS* library bundled with several
   examples that showcase a variety of capabilities of eProsima's *Fast DDS* implementation.
   For more information about *Fast DDS* please refer to `Fast DDS documentation page
-  <https://fast-dds.docs.eprosima.com/>`_
+  <https://fast-dds.docs.eprosima.com/>`_.
+
+- :ref:`eprosima_dds_suite_qos_profiles_manager`: *eProsima Fast DDS QoS Profiles Manager* is a tool suite to ease the
+  generation of XML configuration files for *eProsima Fast DDS*.
+  For more information about *Fast DDS QoS Profiles Manager* please refer to `Fast DDS QoS Profiles Manager
+  documentation page <https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/>`_.
 
 - :ref:`Shapes Demo <eprosima_dds_suite_shapes_demo>`: eProsima *Shapes Demo* is an application in which Publishers and
   Subscribers create and display shapes of different colors and sizes moving on a board.
