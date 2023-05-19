@@ -79,6 +79,24 @@ external WAN communication, to allow DDS communication via internet.
 
 ------------------------------------------------------------------------------------------------------------------------
 
+`eProsima DDS Record & Replay`_
+----------------------------------
+
+*eProsima DDS Record & Replay* is an end-user software application that efficiently saves DDS data published into a DDS environment in a MCAP format database.
+Thus, the exact playback of the recorded network events is possible as the data is linked to the timestamp at which the original data was published.
+This tool is easily configurable and installed with a default setup, so that DDS topics, data types and entities are automatically discovered without the need to specify the types of data recorded.
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima Fast DDS Spy`_
+----------------------------------
+
+*eProsima Fast DDS Spy* is CLI interactive tool that allows to introspect a DDS network in human readable format.
+It is possible to query the network about the DomainParticipants connected, their endpoints (DataWriters and DataReaders) and the topics they communicate in.
+It is also possible to see the user data sent through network topics in a schematic format in run time.
+
+------------------------------------------------------------------------------------------------------------------------
+
 `eProsima Discovery Server`_
 ----------------------------------------
 
@@ -176,4 +194,6 @@ or service, ensuring the recording of the real behavior and timing.
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
 .. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
-.. _eProsima Non-Intrusive DDS Recorder:    https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
+.. _eProsima Non-Intrusive DDS Recorder: https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
+.. _eProsima DDS Record & Replay: https://dds-recorder.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Spy: https://fast-dds-spy.readthedocs.io/en/latest/
