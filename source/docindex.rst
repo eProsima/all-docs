@@ -58,15 +58,6 @@ standard deviation, etc.).
 
 ------------------------------------------------------------------------------------------------------------------------
 
-`eProsima Fast DDS Statistics Backend`_
-----------------------------------------
-
-*eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the
-`eProsima Fast DDS`_ Statistics module, and generate statistical information
-that applications can query.
-
-------------------------------------------------------------------------------------------------------------------------
-
 `eProsima DDS Router`_
 ----------------------------------
 
@@ -94,25 +85,6 @@ This tool is easily configurable and installed with a default setup, so that DDS
 *eProsima Fast DDS Spy* is a CLI interactive tool that allows to introspect a DDS network in human readable format.
 It is possible to query the network about the DomainParticipants connected, their endpoints (DataWriters and DataReaders) and the topics they communicate in.
 It is also possible to see the user data sent through network topics in a schematic format in run time.
-
-------------------------------------------------------------------------------------------------------------------------
-
-`eProsima Discovery Server`_
-----------------------------------------
-
-*eProsima Discovery Server* is an `eProsima Fast DDS`_ discovery mechanism.
-*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
-
-    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-    - speeds up the discovery-stage in a large number of participants scenarios.
-
-------------------------------------------------------------------------------------------------------------------------
-
-`eProsima Fast DDS QoS Profiles Manager`_
--------------------------------------------
-
-*eProsima Fast DDS QoS Profiles Manager* is a tool suite for the generation of `eProsima Fast DDS`_ configuration files.
-The suite provides both a Graphical User Interface (GUI) and a Command Line Interface (CLI).
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -151,6 +123,34 @@ It also supports several features to interact with data series and layouts.
 demonstration for several eProsima products.
 This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
 `eProsima DDS Router`_, `eProsima Fast DDS QoS Profiles Manager`_ and `eProsima Micro XRCE-DDS`_.
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima Fast DDS QoS Profiles Manager`_
+-------------------------------------------
+
+*eProsima Fast DDS QoS Profiles Manager* is a tool suite for the generation of `eProsima Fast DDS`_ configuration files.
+The suite provides both a Graphical User Interface (GUI) and a Command Line Interface (CLI).
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima Fast DDS Statistics Backend`_
+----------------------------------------
+
+*eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the
+`eProsima Fast DDS`_ Statistics module, and generate statistical information
+that applications can query.
+
+------------------------------------------------------------------------------------------------------------------------
+
+`eProsima Discovery Server`_
+----------------------------------------
+
+*eProsima Discovery Server* is an `eProsima Fast DDS`_ discovery mechanism.
+*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
+
+    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+    - speeds up the discovery-stage in a large number of participants scenarios.
 
 ------------------------------------------------------------------------------------------------------------------------
 
