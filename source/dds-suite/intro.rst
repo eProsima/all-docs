@@ -65,6 +65,24 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
   Also, this software supports many different layouts, with dynamic, rich and user-friendly customization.
   `PlotJuggler eProsima Edition documentation page <https://plotjuggler-fastdds-plugins.readthedocs.io>`_.
 
+- :ref:`DDS Record & Replay <eprosima_dds_record_replay>`:
+  *eProsima DDS Record & Replay* is an end-user software application that efficiently saves DDS data published into
+  a DDS environment in a MCAP format database.
+  Thus, the exact playback of the recorded network events is possible as the data is linked to the timestamp at which
+  the original data was published.
+  This tool is easily configurable and installed with a default setup, so that DDS topics, data types and entities
+  are automatically discovered without the need to specify the types of data recorded.
+  For more information about *eProsima DDS Record & Replay* please refer to
+  `DDS Record & Replay documentation website <https://dds-recorder.readthedocs.io>`_.
+
+- :ref:`Fast DDS Spy <eprosima_fast_dds_spy>`:
+  *eProsima Fast DDS Spy* is a CLI interactive tool that allows to introspect a DDS network in human readable format.
+  It is possible to query the network about the DomainParticipants connected, their endpoints
+  (DataWriters and DataReaders) and the topics they communicate in.
+  It is also possible to see the user data sent through network topics in a schematic format in run time.
+  For more information about *eProsima Fast DDS Spy* please refer to
+  `Fast DDS Spy documentation website <https://fast-dds-spy.readthedocs.io>`_.
+
 .. toctree::
     :caption: Getting started
 
