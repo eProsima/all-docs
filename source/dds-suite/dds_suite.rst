@@ -214,3 +214,42 @@ To launch the PlotJuggler eProsima Edition, from a terminal run:
 
 eProsima PlotJuggler eProsima Edition usage information can be found on the `PlotJuggler eProsima Edition User Manual
 <https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/>`_.
+
+.. _eprosima_dds_record_replay:
+
+DDS Record & Replay
+-------------------
+
+DDS Record & Replay is composed of two different tools: DDS Recorder and DDS Replayer.
+DDS Recorder allows to record DDS traffic in a specific domain, storing all data in an MCAP file.
+To launch DDS Recorder, from a terminal run:
+
+.. code-block:: bash
+
+ $ ddsrecorder
+
+Recorded data can then be inspected through visualization applications such as `Foxglove Studio
+<https://foxglove.dev/>`_.
+It is also possible to play data back in the same domain or a different one by leveraging DDS Replayer.
+To launch DDS Replayer, from a terminal run:
+
+.. code-block:: bash
+
+ $ ddsreplayer -i my_data.mcap
+
+For more information on how to configure and use DDS Record & Replay, please refer to
+`DDS Record & Replay documentation website <https://dds-recorder.readthedocs.io>`_.
+
+.. _eprosima_fast_dds_spy:
+
+Fast DDS Spy
+------------
+
+To launch Fast DDS Spy, from a terminal run:
+
+.. code-block:: bash
+
+ $ fastddsspy
+
+Fast DDS Spy usage information can be found on the `Fast DDS Spy User Manual
+<https://fast-dds-spy.readthedocs.io/en/latest/rst/user_manual/usage_example.html/>`_.
