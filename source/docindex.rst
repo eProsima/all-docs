@@ -6,9 +6,9 @@
 .. raw:: html
 
     <br><br><br><br>
-    <h1>
-        eProsima documentation index
-    </h1>
+
+eProsima documentation index
+----------------------------
 
 eProsima is focused on developing middleware and tools for high performance distributed systems and its products are
 customer driven.
@@ -187,7 +187,7 @@ mechanism allowing the user to test, analyze or log the DDS distributed systems 
 or service, ensuring the recording of the real behavior and timing.
 
 .. _eProsima website: https://www.eprosima.com/
-.. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/en/latest/
+.. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/
 .. _eProsima Safe DDS: https://safe-dds.docs.eprosima.com/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
@@ -195,7 +195,7 @@ or service, ensuring the recording of the real behavior and timing.
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
 .. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
 .. _eProsima Fast DDS QoS Profiles Manager: https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/
-.. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/en/latest/
+.. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/
 .. _eProsima Fast CDR: https://www.eprosima.com/images/PDFs/Fast_CDR.pdf
 .. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
