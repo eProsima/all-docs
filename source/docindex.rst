@@ -1,4 +1,4 @@
-.. image::  /01-figures/enhanced_logo.png
+.. image::  /01-figures/logo_eprosima.png
     :align: center
     :alt: eProsima - The middleware experts
     :target: `eProsima website`_
@@ -129,7 +129,7 @@ It also supports several features to interact with data series and layouts.
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
 This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
-`eProsima DDS Router`_, `eProsima Fast DDS QoS Profiles Manager`_ and `eProsima Micro XRCE-DDS`_.
+`eProsima DDS Router`_, and `eProsima Fast DDS QoS Profiles Manager`_.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -196,7 +196,7 @@ or service, ensuring the recording of the real behavior and timing.
 .. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
 .. _eProsima Fast DDS QoS Profiles Manager: https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/
 .. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/
-.. _eProsima Fast CDR: https://www.eprosima.com/images/PDFs/Fast_CDR.pdf
+.. _eProsima Fast CDR: https://github.com/eProsima/Fast-CDR/releases/
 .. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
