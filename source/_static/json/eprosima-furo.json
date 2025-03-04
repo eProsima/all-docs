@@ -1,0 +1,13 @@
+{
+    "navigation_with_keys": true,
+    "light_css_variables": {
+        "color-brand-primary": "#0895CD",
+        "color-brand-content": "#0895CD",
+        "sidebar-item-spacing-vertical" : "5px"
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#0895CD",
+        "color-brand-content": "#0895CD",
+        "sidebar-item-spacing-vertical" : "5px"
+    }
+}
