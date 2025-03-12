@@ -1,5 +1,6 @@
 {
     "navigation_with_keys": true,
+    "top_of_page_buttons": [],
     "light_css_variables": {
         "color-brand-primary": "#0895CD",
         "color-brand-content": "#0895CD",

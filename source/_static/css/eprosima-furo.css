@@ -4,3 +4,18 @@ body {
         width: 20em;
     }
 }
+
+button {
+    background-color: #09487e;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0.5em 0.5em;
+    cursor: pointer;
+    width: 95%;
+}
