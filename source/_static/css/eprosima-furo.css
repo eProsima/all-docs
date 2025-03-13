@@ -8,6 +8,10 @@ p {
     text-align: justify;
 }
 
+table {
+    width: 100%;
+}
+
 button {
     background-color: #09487e;
     border: none;
