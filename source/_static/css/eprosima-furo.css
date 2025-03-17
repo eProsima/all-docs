@@ -5,7 +5,11 @@ body {
 }
 
 p {
-    text-align: justify;
+    text-align: justify !important;
+}
+
+.api-ref p {
+  text-align: left !important;
 }
 
 table {
