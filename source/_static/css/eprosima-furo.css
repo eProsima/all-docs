@@ -30,3 +30,14 @@ button {
     cursor: pointer;
     width: 95%;
 }
+
+.video-center {
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+.video-center video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
