@@ -15,6 +15,10 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import json
+from pathlib import Path
+
+SOURCE_DIR = Path(__file__).parent
 
 
 # -- Project information -----------------------------------------------------
@@ -80,7 +84,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -96,18 +100,21 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo' #'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#
-# html_theme_options = {}
+
+html_theme_options = json.loads(
+    (SOURCE_DIR / '_static/json/eprosima-furo.json').read_text()
+)
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = ['css/eprosima-furo.css']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -117,12 +124,22 @@ html_static_path = ['_static']
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-# html_sidebars = {}
-html_context = {
-    'css_files': [
-        '_static/css/fiware_readthedocs.css',  # logo
-        ],
+html_sidebars = {
+    '**': [
+        'sidebar/brand.html',
+        'sidebar/commercial-support.html',
+        'sidebar/search.html',
+        'sidebar/scroll-start.html',
+        'sidebar/navigation.html',
+        'sidebar/ethical-ads.html',
+        'sidebar/scroll-end.html',
+        'sidebar/variant-selector.html',
+    ]
 }
+
+html_title = 'ALL-DOCS'
+
+html_show_sphinx = False
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -205,7 +222,9 @@ epub_exclude_files = ['search.html']
 # -- Options for intersphinx extension ---------------------------------------
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+}
 
 # -- Options for todo extension ----------------------------------------------
 

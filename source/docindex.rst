@@ -1,3 +1,7 @@
+.. raw:: html
+
+    <div style="height: 40px;"></div>
+
 .. image::  /01-figures/logo_eprosima.png
     :align: center
     :alt: eProsima - The middleware experts
@@ -5,7 +9,7 @@
 
 .. raw:: html
 
-    <br><br><br><br>
+    <div style="height: 30px;"></div>
 
 eProsima documentation index
 ----------------------------

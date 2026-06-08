@@ -4,6 +4,32 @@ body {
     }
 }
 
+.sidebar-brand-text,
+.mobile-header .brand {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #636363; /* color: var(--color-brand-primary); */
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 0.45rem;
+}
+
+.sidebar-brand-text::before,
+.mobile-header .brand::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    background-image: url("imgs/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 p {
     text-align: justify !important;
 }
