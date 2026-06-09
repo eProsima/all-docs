@@ -4,6 +4,10 @@ body {
     }
 }
 
+.indented-bullets {
+    margin-left: 1rem;
+}
+
 .sidebar-brand-text,
 .mobile-header .brand {
     font-family: "Segoe UI", Arial, sans-serif;

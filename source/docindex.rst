@@ -160,8 +160,11 @@ that applications can query.
 *eProsima Discovery Server* is an `eProsima Fast DDS`_ discovery mechanism.
 *eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
 
-    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-    - speeds up the discovery-stage in a large number of participants scenarios.
+.. rst-class:: indented-bullets
+
+- extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+
+- speeds up the discovery-stage in a large number of participants scenarios.
 
 ------------------------------------------------------------------------------------------------------------------------
 
