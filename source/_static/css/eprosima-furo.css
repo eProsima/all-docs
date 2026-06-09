@@ -4,6 +4,21 @@ body {
     }
 }
 
+section.docs-tile,
+div.docs-tile {
+    border: 1px solid var(--color-background-border);
+    border-radius: 8px;
+    background: var(--color-background-secondary);
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0;
+    box-shadow: 0 0.1rem 0.35rem rgba(0, 0, 0, 0.06);
+}
+
+section.docs-tile h2,
+div.docs-tile h2 {
+    margin-top: 0;
+}
+
 .indented-bullets {
     margin-left: 1rem;
 }
