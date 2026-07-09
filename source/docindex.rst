@@ -1,11 +1,24 @@
-.. image::  /01-figures/logo_eprosima.png
-    :align: center
-    :alt: eProsima - The middleware experts
-    :target: `eProsima website`_
+.. raw:: html
+
+    <div style="height: 40px;"></div>
+
+.. image:: /01-figures/logo_eprosima_horizontal_1954x472.png
+   :align: center
+   :width: 95%
+   :alt: eProsima - The middleware experts
+   :class: only-light
+   :target: `eProsima website`_
+
+.. image:: /01-figures/logo_eprosima_horizontal_white_1954x472.png
+   :align: center
+   :width: 95%
+   :alt: eProsima - The middleware experts
+   :class: only-dark
+   :target: `eProsima website`_
 
 .. raw:: html
 
-    <br><br><br><br>
+    <div style="height: 30px;"></div>
 
 eProsima documentation index
 ----------------------------
@@ -19,11 +32,21 @@ systems with high speed reliable links, to small devices connected over unreliab
 Commercial support
 ------------------
 
-Looking for commercial support? Write us to info@eprosima.com
+.. |commercial_support_link| raw:: html
 
-Find more about us at `eProsima's webpage <https://eprosima.com/>`__.
+   <a href="https://forms.eprosima.com/reach/form/CommercialSupportRequest/formperma/Ac8GwewD7PTDadQZIV92qDEzNFfMlJnYmA029mSJtJ8" target="_blank" rel="noopener noreferrer">share your details</a>
+
+Looking for commercial support? Please |commercial_support_link| so we can assist you.
+
+.. |eprosima_webpage_link| raw:: html
+
+   <a href="https://www.eprosima.com" target="_blank" rel="noopener noreferrer">eProsima’s webpage</a>
+
+Find more about us at |eprosima_webpage_link|.
 
 ------------------------------------------------------------------------------------------------------------------------
+
+.. rst-class:: docs-tile
 
 `eProsima Fast DDS`_
 ----------------------
@@ -31,7 +54,7 @@ Find more about us at `eProsima's webpage <https://eprosima.com/>`__.
 *eProsima Fast DDS* is a high performance publish subscribe framework to share data in distributed systems using a
 decoupled model based on Publishers, Subscribers, and Data Topics.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Safe DDS`_
 ----------------------
@@ -42,7 +65,7 @@ in industries such as automotive, avionics, and medical devices,
 ensuring compliance with the most stringent functional
 safety standards like ISO 26262 ASIL D.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Micro XRCE-DDS`_
 ----------------------------
@@ -51,7 +74,7 @@ safety standards like ISO 26262 ASIL D.
 DDS for *eXtremely Resource Constrained Environments* proposal submitted
 to the Object Management Group (OMG) consortium.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Fast DDS Monitor`_
 ------------------------------
@@ -63,7 +86,7 @@ They can also choose from a wide variety of communication parameters to be measu
 loss, etc.), as well as record and compute in real time statistical measurements on these parameters (mean, variance,
 standard deviation, etc.).
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima DDS Router`_
 ----------------------------------
@@ -75,7 +98,7 @@ all the data from one to the other.
 This capability could be used to create a bridge between an internal LAN and
 external WAN communication, to allow DDS communication via internet.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima DDS Record & Replay`_
 ----------------------------------
@@ -84,7 +107,7 @@ external WAN communication, to allow DDS communication via internet.
 Thus, the exact playback of the recorded network events is possible as the data is linked to the timestamp at which the original data was published.
 This tool is easily configurable and installed with a default setup, so that DDS topics, data types and entities are automatically discovered without the need to specify the types of data recorded.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Fast DDS Spy`_
 ----------------------------------
@@ -93,7 +116,7 @@ This tool is easily configurable and installed with a default setup, so that DDS
 It is possible to query the network about the DomainParticipants connected, their endpoints (DataWriters and DataReaders) and the topics they communicate in.
 It is also possible to see the user data sent through network topics in a schematic format in run time.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Shapes Demo`_
 ---------------------------------
@@ -103,7 +126,7 @@ different colors and sizes moving on a board.
 Each Shape conforms its own topic: Square, Triangle or Circle.
 A single instance of the Shapes Demo can publish on or subscribe to several topics at a time.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Fast CDR`_
 ----------------------------------
@@ -111,7 +134,7 @@ A single instance of the Shapes Demo can publish on or subscribe to several topi
 *eProsima FastCDR* is a C++ library that provides two serialization mechanisms.
 One is the standard CDR serialization mechanism, while the other is a faster implementation that modifies the standard.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `PlotJuggler eProsima Edition`_
 ----------------------------------------
@@ -121,7 +144,7 @@ topics in a DDS network.
 It uses Fast DDS Dynamic Types to introspect the data types and generate time series for every value in the topic.
 It also supports several features to interact with data series and layouts.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima DDS Suite`_
 ---------------------
@@ -131,15 +154,7 @@ demonstration for several eProsima products.
 This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
 `eProsima DDS Router`_, and `eProsima Fast DDS QoS Profiles Manager`_.
 
-------------------------------------------------------------------------------------------------------------------------
-
-`eProsima Fast DDS QoS Profiles Manager`_
--------------------------------------------
-
-*eProsima Fast DDS QoS Profiles Manager* is a tool suite for the generation of `eProsima Fast DDS`_ configuration files.
-The suite provides both a Graphical User Interface (GUI) and a Command Line Interface (CLI).
-
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Fast DDS Statistics Backend`_
 ----------------------------------------
@@ -148,7 +163,7 @@ The suite provides both a Graphical User Interface (GUI) and a Command Line Inte
 `eProsima Fast DDS`_ Statistics module, and generate statistical information
 that applications can query.
 
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Discovery Server`_
 ----------------------------------------
@@ -156,10 +171,13 @@ that applications can query.
 *eProsima Discovery Server* is an `eProsima Fast DDS`_ discovery mechanism.
 *eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
 
-    - extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
-    - speeds up the discovery-stage in a large number of participants scenarios.
+.. rst-class:: indented-bullets
 
-------------------------------------------------------------------------------------------------------------------------
+- extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+
+- speeds up the discovery-stage in a large number of participants scenarios.
+
+.. rst-class:: docs-tile
 
 `eProsima Integration Service`_
 ----------------------------------
@@ -168,16 +186,7 @@ that applications can query.
 bridges between different systems, services, and protocols.
 It is also able to perform transformations over the messages such as customized routing and mapping.
 
-------------------------------------------------------------------------------------------------------------------------
-
-`eProsima RPC over DDS`_
-----------------------------------
-
-*eProsima RPC over DDS* is a high performance Remote Procedure Call (RPC) framework.
-It combines a software stack with a code generation engine to build services that work efficiently in several platforms
-and programming languages.
-
-------------------------------------------------------------------------------------------------------------------------
+.. rst-class:: docs-tile
 
 `eProsima Non-Intrusive DDS Recorder`_
 ----------------------------------------
