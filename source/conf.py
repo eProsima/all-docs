@@ -137,7 +137,7 @@ html_sidebars = {
     ]
 }
 
-html_title = 'ALL-DOCS'
+#html_title = 'ALL-DOCS'
 
 html_show_sphinx = False
 

@@ -2,10 +2,19 @@
 
     <div style="height: 40px;"></div>
 
-.. image::  /01-figures/logo_eprosima.png
-    :align: center
-    :alt: eProsima - The middleware experts
-    :target: `eProsima website`_
+.. image:: /01-figures/logo_eprosima_horizontal_1954x472.png
+   :align: center
+   :width: 95%
+   :alt: eProsima - The middleware experts
+   :class: only-light
+   :target: `eProsima website`_
+
+.. image:: /01-figures/logo_eprosima_horizontal_white_1954x472.png
+   :align: center
+   :width: 95%
+   :alt: eProsima - The middleware experts
+   :class: only-dark
+   :target: `eProsima website`_
 
 .. raw:: html
 
@@ -23,9 +32,17 @@ systems with high speed reliable links, to small devices connected over unreliab
 Commercial support
 ------------------
 
-Looking for commercial support? Write us to info@eprosima.com
+.. |commercial_support_link| raw:: html
 
-Find more about us at `eProsima's webpage <https://eprosima.com/>`__.
+   <a href="https://forms.eprosima.com/reach/form/CommercialSupportRequest/formperma/Ac8GwewD7PTDadQZIV92qDEzNFfMlJnYmA029mSJtJ8" target="_blank" rel="noopener noreferrer">share your details</a>
+
+Looking for commercial support? Please |commercial_support_link| so we can assist you.
+
+.. |eprosima_webpage_link| raw:: html
+
+   <a href="https://www.eprosima.com" target="_blank" rel="noopener noreferrer">eProsima’s webpage</a>
+
+Find more about us at |eprosima_webpage_link|.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -139,14 +156,6 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS QoS Profiles Manager`_
--------------------------------------------
-
-*eProsima Fast DDS QoS Profiles Manager* is a tool suite for the generation of `eProsima Fast DDS`_ configuration files.
-The suite provides both a Graphical User Interface (GUI) and a Command Line Interface (CLI).
-
-.. rst-class:: docs-tile
-
 `eProsima Fast DDS Statistics Backend`_
 ----------------------------------------
 
@@ -176,15 +185,6 @@ that applications can query.
 *eProsima Integration Service* is a library based on `eProsima Fast DDS`_ for creating parameterized communication
 bridges between different systems, services, and protocols.
 It is also able to perform transformations over the messages such as customized routing and mapping.
-
-.. rst-class:: docs-tile
-
-`eProsima RPC over DDS`_
-----------------------------------
-
-*eProsima RPC over DDS* is a high performance Remote Procedure Call (RPC) framework.
-It combines a software stack with a code generation engine to build services that work efficiently in several platforms
-and programming languages.
 
 .. rst-class:: docs-tile
 
