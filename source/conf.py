@@ -140,7 +140,7 @@ html_sidebars = {
 # Fixed title for the HTML documentation.
 # If not set, it defaults to "<project> v<release> documentation".
 #
-html_title = 'Documentation Hub'
+html_title = 'eProsima Documentation Hub'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs. This file should be a Windows icon file (.ico) being 16x16 or 32x32
