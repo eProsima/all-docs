@@ -136,16 +136,6 @@ One is the standard CDR serialization mechanism, while the other is a faster imp
 
 .. rst-class:: docs-tile
 
-`PlotJuggler eProsima Edition`_
-----------------------------------------
-
-*PlotJuggler eProsima Edition* is a plugin for PlotJuggler application to visualize DDS data by subscribing to selected
-topics in a DDS network.
-It uses Fast DDS Dynamic Types to introspect the data types and generate time series for every value in the topic.
-It also supports several features to interact with data series and layouts.
-
-.. rst-class:: docs-tile
-
 `eProsima DDS Suite`_
 ---------------------
 
@@ -197,9 +187,11 @@ or service, ensuring the recording of the real behavior and timing.
 
 .. _eProsima website: https://www.eprosima.com/
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/
+.. _eProsima Fast DDS Pro: https://fast-dds.docs.eprosima.com/en/latest/02-formalia/titlepage.html#fast-dds-pro
 .. _eProsima Safe DDS: https://safe-dds.docs.eprosima.com/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Monitor Pro: https://fast-dds-monitor.readthedocs.io/en/latest/rst/formalia/titlepage.html#fast-dds-monitor-pro
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
 .. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
@@ -209,7 +201,6 @@ or service, ensuring the recording of the real behavior and timing.
 .. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
-.. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
 .. _eProsima Non-Intrusive DDS Recorder: https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima DDS Record & Replay: https://dds-recorder.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Spy: https://fast-dds-spy.readthedocs.io/en/latest/
