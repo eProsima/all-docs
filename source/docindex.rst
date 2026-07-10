@@ -51,8 +51,16 @@ Find more about us at |eprosima_webpage_link|.
 `eProsima Fast DDS`_
 ----------------------
 
-*eProsima Fast DDS* is a high performance publish subscribe framework to share data in distributed systems using a
-decoupled model based on Publishers, Subscribers, and Data Topics.
+*eProsima Fast DDS* is a high performance publish subscribe open-source framework to share data in distributed systems
+using a decoupled model based on Publishers, Subscribers, and Data Topics.
+
+.. rst-class:: docs-tile
+
+`eProsima Fast DDS Pro`_
+--------------------------
+
+*eProsima Fast DDS Pro* is the commercial edition of *eProsima Fast DDS*, created for industrial and defense
+applications that require advanced networking capabilities.
 
 .. rst-class:: docs-tile
 
@@ -85,6 +93,14 @@ Thus, the user can monitor in real time the status of publication/subscription c
 They can also choose from a wide variety of communication parameters to be measured (latency, throughput, packet
 loss, etc.), as well as record and compute in real time statistical measurements on these parameters (mean, variance,
 standard deviation, etc.).
+
+.. rst-class:: docs-tile
+
+`eProsima Fast DDS Monitor Pro`_
+----------------------------------
+
+*eProsima Fast DDS Monitor Pro* is the commercial edition of *eProsima Fast DDS Monitor*, designed for professional
+deployments that require advanced monitoring capabilities and a richer user experience.
 
 .. rst-class:: docs-tile
 
@@ -141,8 +157,7 @@ One is the standard CDR serialization mechanism, while the other is a faster imp
 
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
-This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
-`eProsima DDS Router`_, and `eProsima Fast DDS QoS Profiles Manager`_.
+This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_ and `eProsima DDS Router`_.
 
 .. rst-class:: docs-tile
 
