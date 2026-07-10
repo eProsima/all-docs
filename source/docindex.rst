@@ -51,8 +51,16 @@ Find more about us at |eprosima_webpage_link|.
 `eProsima Fast DDS`_
 ----------------------
 
-*eProsima Fast DDS* is a high performance publish subscribe framework to share data in distributed systems using a
-decoupled model based on Publishers, Subscribers, and Data Topics.
+*eProsima Fast DDS* is a high performance publish subscribe open-source framework to share data in distributed systems
+using a decoupled model based on Publishers, Subscribers, and Data Topics.
+
+.. rst-class:: docs-tile
+
+`eProsima Fast DDS Pro`_
+--------------------------
+
+*eProsima Fast DDS Pro* is the commercial edition of *eProsima Fast DDS*, created for industrial and defense
+applications that require advanced networking capabilities.
 
 .. rst-class:: docs-tile
 
@@ -85,6 +93,14 @@ Thus, the user can monitor in real time the status of publication/subscription c
 They can also choose from a wide variety of communication parameters to be measured (latency, throughput, packet
 loss, etc.), as well as record and compute in real time statistical measurements on these parameters (mean, variance,
 standard deviation, etc.).
+
+.. rst-class:: docs-tile
+
+`eProsima Fast DDS Monitor Pro`_
+----------------------------------
+
+*eProsima Fast DDS Monitor Pro* is the commercial edition of *eProsima Fast DDS Monitor*, designed for professional
+deployments that require advanced monitoring capabilities and a richer user experience.
 
 .. rst-class:: docs-tile
 
@@ -136,23 +152,12 @@ One is the standard CDR serialization mechanism, while the other is a faster imp
 
 .. rst-class:: docs-tile
 
-`PlotJuggler eProsima Edition`_
-----------------------------------------
-
-*PlotJuggler eProsima Edition* is a plugin for PlotJuggler application to visualize DDS data by subscribing to selected
-topics in a DDS network.
-It uses Fast DDS Dynamic Types to introspect the data types and generate time series for every value in the topic.
-It also supports several features to interact with data series and layouts.
-
-.. rst-class:: docs-tile
-
 `eProsima DDS Suite`_
 ---------------------
 
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
-This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_,
-`eProsima DDS Router`_, and `eProsima Fast DDS QoS Profiles Manager`_.
+This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_ and `eProsima DDS Router`_.
 
 .. rst-class:: docs-tile
 
@@ -197,9 +202,11 @@ or service, ensuring the recording of the real behavior and timing.
 
 .. _eProsima website: https://www.eprosima.com/
 .. _eProsima Fast DDS: https://fast-dds.docs.eprosima.com/
+.. _eProsima Fast DDS Pro: https://fast-dds.docs.eprosima.com/en/latest/02-formalia/titlepage.html#fast-dds-pro
 .. _eProsima Safe DDS: https://safe-dds.docs.eprosima.com/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
+.. _eProsima Fast DDS Monitor Pro: https://fast-dds-monitor.readthedocs.io/en/latest/rst/formalia/titlepage.html#fast-dds-monitor-pro
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
 .. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
@@ -209,7 +216,6 @@ or service, ensuring the recording of the real behavior and timing.
 .. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
-.. _eProsima RPC over DDS: https://www.eprosima.com/docs/rpc-over-dds/1.0.3/pdf/eprosima-fast-rtps/User-Manual.pdf
 .. _eProsima Non-Intrusive DDS Recorder: https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima DDS Record & Replay: https://dds-recorder.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Spy: https://fast-dds-spy.readthedocs.io/en/latest/
