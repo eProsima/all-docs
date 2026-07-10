@@ -1,3 +1,5 @@
+.. role:: sr-only
+
 .. raw:: html
 
     <div style="height: 40px;"></div>
@@ -48,26 +50,26 @@ Find more about us at |eprosima_webpage_link|.
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS`_
-----------------------
+|eProsima Fast DDS|_ :sr-only:`eProsima Fast DDS`
+---------------------------------------------------
 
 *eProsima Fast DDS* is a high performance publish subscribe open-source framework to share data in distributed systems
 using a decoupled model based on Publishers, Subscribers, and Data Topics.
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS Pro`_
---------------------------
+|eProsima Fast DDS Pro|_ :sr-only:`eProsima Fast DDS Pro`
+-----------------------------------------------------------
 
 *eProsima Fast DDS Pro* is the commercial edition of *eProsima Fast DDS*, created for industrial and defense
 applications that require advanced networking capabilities.
 
 .. rst-class:: docs-tile
 
-`eProsima Safe DDS`_
-----------------------
+|eProsima Safe DDS|_ :sr-only:`eProsima Safe DDS`
+---------------------------------------------------
 
-eProsima Safe DDS is a functionally safe, highly reliable, and efficient C++
+*eProsima Safe DDS* is a functionally safe, highly reliable, and efficient C++
 implementation of the DDS protocol, designed for critical applications
 in industries such as automotive, avionics, and medical devices,
 ensuring compliance with the most stringent functional
@@ -75,8 +77,8 @@ safety standards like ISO 26262 ASIL D.
 
 .. rst-class:: docs-tile
 
-`eProsima Micro XRCE-DDS`_
-----------------------------
+|eProsima Micro XRCE-DDS|_ :sr-only:`eProsima Micro XRCE-DDS`
+---------------------------------------------------------------
 
 *eProsima Micro XRCE-DDS* implements DDS-XRCE protocol specified in the
 DDS for *eXtremely Resource Constrained Environments* proposal submitted
@@ -84,8 +86,8 @@ to the Object Management Group (OMG) consortium.
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS Monitor`_
-------------------------------
+|eProsima Fast DDS Monitor|_ :sr-only:`eProsima Fast DDS Monitor`
+-------------------------------------------------------------------
 
 *eProsima Fast DDS Monitor* is a graphical desktop application aimed at monitoring DDS environments deployed using the
 `eProsima Fast DDS`_ library.
@@ -96,16 +98,16 @@ standard deviation, etc.).
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS Monitor Pro`_
-----------------------------------
+|eProsima Fast DDS Monitor Pro|_ :sr-only:`eProsima Fast DDS Monitor Pro`
+---------------------------------------------------------------------------
 
 *eProsima Fast DDS Monitor Pro* is the commercial edition of *eProsima Fast DDS Monitor*, designed for professional
 deployments that require advanced monitoring capabilities and a richer user experience.
 
 .. rst-class:: docs-tile
 
-`eProsima DDS Router`_
-----------------------------------
+|eProsima DDS Router|_ :sr-only:`eProsima DDS Router`
+-------------------------------------------------------
 
 *eProsima DDS Router* is an application based on `eProsima Fast DDS`_ that allows
 to connect DDS networks that belong to different LANs.
@@ -116,8 +118,8 @@ external WAN communication, to allow DDS communication via internet.
 
 .. rst-class:: docs-tile
 
-`eProsima DDS Record & Replay`_
-----------------------------------
+|eProsima DDS Record & Replay|_ :sr-only:`eProsima DDS Record & Replay`
+-------------------------------------------------------------------------
 
 *eProsima DDS Record & Replay* is an end-user software application that efficiently saves DDS data published into a DDS environment in a MCAP format database.
 Thus, the exact playback of the recorded network events is possible as the data is linked to the timestamp at which the original data was published.
@@ -125,8 +127,8 @@ This tool is easily configurable and installed with a default setup, so that DDS
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS Spy`_
-----------------------------------
+|eProsima Fast DDS Spy|_ :sr-only:`eProsima Fast DDS Spy`
+-----------------------------------------------------------
 
 *eProsima Fast DDS Spy* is a CLI interactive tool that allows to introspect a DDS network in human readable format.
 It is possible to query the network about the DomainParticipants connected, their endpoints (DataWriters and DataReaders) and the topics they communicate in.
@@ -134,8 +136,8 @@ It is also possible to see the user data sent through network topics in a schema
 
 .. rst-class:: docs-tile
 
-`eProsima Shapes Demo`_
----------------------------------
+|eProsima Shapes Demo|_ :sr-only:`eProsima Shapes Demo`
+---------------------------------------------------------
 
 *eProsima Shapes Demo* is an *eProsima Fast DDS* application that Publishes and Subscribes to shapes of
 different colors and sizes moving on a board.
@@ -144,16 +146,16 @@ A single instance of the Shapes Demo can publish on or subscribe to several topi
 
 .. rst-class:: docs-tile
 
-`eProsima Fast CDR`_
-----------------------------------
+|eProsima Fast CDR|_ :sr-only:`eProsima Fast CDR`
+---------------------------------------------------
 
 *eProsima FastCDR* is a C++ library that provides two serialization mechanisms.
 One is the standard CDR serialization mechanism, while the other is a faster implementation that modifies the standard.
 
 .. rst-class:: docs-tile
 
-`eProsima DDS Suite`_
----------------------
+|eProsima DDS Suite|_ :sr-only:`eProsima DDS Suite`
+-----------------------------------------------------
 
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
@@ -161,8 +163,8 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 
 .. rst-class:: docs-tile
 
-`eProsima Fast DDS Statistics Backend`_
-----------------------------------------
+|eProsima Fast DDS Statistics Backend|_ :sr-only:`eProsima Fast DDS Statistics Backend`
+-----------------------------------------------------------------------------------------
 
 *eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the
 `eProsima Fast DDS`_ Statistics module, and generate statistical information
@@ -207,15 +209,68 @@ or service, ensuring the recording of the real behavior and timing.
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Monitor Pro: https://fast-dds-monitor.readthedocs.io/en/latest/rst/formalia/titlepage.html#fast-dds-monitor-pro
-.. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
-.. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
-.. _eProsima Fast DDS QoS Profiles Manager: https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/
-.. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/
-.. _eProsima Fast CDR: https://github.com/eProsima/Fast-CDR/releases/
-.. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
-.. _eProsima DDS Suite: dds-suite/intro.html
-.. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
-.. _eProsima Non-Intrusive DDS Recorder: https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
 .. _eProsima DDS Record & Replay: https://dds-recorder.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Spy: https://fast-dds-spy.readthedocs.io/en/latest/
+.. _eProsima Shapes Demo: https://eprosima-shapes-demo.readthedocs.io/
+.. _eProsima Fast CDR: https://github.com/eProsima/Fast-CDR/releases/
+.. _eProsima DDS Suite: dds-suite/intro.html
+.. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
+.. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
+.. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
+.. _eProsima Non-Intrusive DDS Recorder: https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
+.. _eProsima Fast DDS QoS Profiles Manager: https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/
+.. _PlotJuggler eProsima Edition: https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/
+
+.. |eProsima Fast DDS| image:: /02-tool-logos/fast-dds-logo-large.png
+   :alt: eProsima Fast DDS
+   :height: 45px
+
+.. |eProsima Fast DDS Pro| image:: /02-tool-logos/fast-dds-pro-logo-large.png
+   :alt: eProsima Fast DDS Pro
+   :height: 45px
+
+.. |eProsima Safe DDS| image:: /02-tool-logos/Safe-DDS-logo_transparent_trimmed.png
+   :alt: eProsima Safe DDS
+   :height: 45px
+
+.. |eProsima Micro XRCE-DDS| image:: /02-tool-logos/Micro-XRCE-DDS-logo_transparent_trimmed.png
+   :alt: eProsima Micro XRCE-DDS
+   :height: 45px
+
+.. |eProsima Fast DDS Monitor| image:: /02-tool-logos/fastdds-monitor-logo_trimmed.png
+   :alt: eProsima Fast DDS Monitor
+   :height: 60px
+
+.. |eProsima Fast DDS Monitor Pro| image:: /02-tool-logos/fastdds-monitor-pro-logo_trimmed.png
+   :alt: eProsima Fast DDS Monitor Pro
+   :height: 60px
+
+.. |eProsima DDS Router| image:: /02-tool-logos/DDS-Router-Logo_trimmed.png
+   :alt: eProsima DDS Router
+   :height: 45px
+
+.. |eProsima DDS Record & Replay| image:: /02-tool-logos/DDS-Record-Replay-Logo_horizontal_trimmed.png
+   :alt: eProsima DDS Record & Replay
+   :height: 45px
+
+.. |eProsima Fast DDS Spy| image:: /02-tool-logos/DDS-Spy-Logo_trimmed.png
+   :alt: eProsima Fast DDS Spy
+   :height: 48px
+
+.. |eProsima Shapes Demo| image:: /02-tool-logos/ShapesDemo-Logo_horizontal_trimmed.png
+   :alt: eProsima Shapes Demo
+   :height: 45px
+
+.. |eProsima Fast CDR| image:: /02-tool-logos/FastCDR-Logo_trimmed_transparent.png
+   :alt: eProsima Fast CDR
+   :height: 45px
+
+.. |eProsima DDS Suite| image:: /02-tool-logos/DDS-Suite-Logo_horizontal_trimmed.png
+   :alt: eProsima DDS Suite
+   :height: 45px
+
+.. |eProsima Fast DDS Statistics Backend| image:: /02-tool-logos/Fast-DDS-Statistics-Backend-Logo_horizontal_trimmed.png
+   :alt: eProsima Fast DDS Statistics Backend
+   :height: 50px
+
