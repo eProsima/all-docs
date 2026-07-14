@@ -32,10 +32,22 @@ article[role="main"]:has(.docs-tile) > :not(.docs-tile) {
     grid-column: 1 / -1;
 }
 
+article[role="main"]:has(.docs-tile) > section:not(.docs-tile) h1 {
+    margin-top: 0.5rem;
+}
+
+article[role="main"]:has(.docs-tile) > hr.docutils {
+    margin: 0.5rem 0;
+}
+
 @media (max-width: 700px) {
     article[role="main"]:has(.docs-tile) {
         grid-template-columns: 1fr;
     }
+}
+
+.nowrap {
+    white-space: nowrap;
 }
 
 .indented-bullets {
