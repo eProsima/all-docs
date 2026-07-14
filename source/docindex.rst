@@ -1,26 +1,24 @@
 .. role:: sr-only
 
+.. role:: nowrap
+
 .. raw:: html
 
-    <div style="height: 40px;"></div>
+    <div style="height: 20px;"></div>
 
 .. image:: /01-figures/logo_eprosima_horizontal_1954x472.png
    :align: center
-   :width: 95%
+   :width: 90%
    :alt: eProsima - The middleware experts
    :class: only-light
    :target: `eProsima website`_
 
 .. image:: /01-figures/logo_eprosima_horizontal_white_1954x472.png
    :align: center
-   :width: 95%
+   :width: 90%
    :alt: eProsima - The middleware experts
    :class: only-dark
    :target: `eProsima website`_
-
-.. raw:: html
-
-    <div style="height: 30px;"></div>
 
 eProsima documentation index
 ----------------------------
@@ -50,14 +48,6 @@ Find more about us at |eprosima_webpage_link|.
 
 .. rst-class:: docs-tile
 
-|eProsima Fast DDS|_ :sr-only:`eProsima Fast DDS`
----------------------------------------------------
-
-*eProsima Fast DDS* is a high performance publish subscribe open-source framework to share data in distributed systems
-using a decoupled model based on Publishers, Subscribers, and Data Topics.
-
-.. rst-class:: docs-tile
-
 |eProsima Fast DDS Pro|_ :sr-only:`eProsima Fast DDS Pro`
 -----------------------------------------------------------
 
@@ -66,10 +56,18 @@ applications that require advanced networking capabilities.
 
 .. rst-class:: docs-tile
 
+|eProsima Fast DDS|_ :sr-only:`eProsima Fast DDS`
+---------------------------------------------------
+
+*eProsima Fast DDS* is a high performance publish subscribe open-source framework to share data in distributed systems
+using a decoupled model based on Publishers, Subscribers, and Data Topics.
+
+.. rst-class:: docs-tile
+
 |eProsima Safe DDS|_ :sr-only:`eProsima Safe DDS`
 ---------------------------------------------------
 
-*eProsima Safe DDS* is a functionally safe, highly reliable, and efficient C++
+*eProsima Safe DDS* is a functionally safe, highly reliable, and efficient :nowrap:`C++`
 implementation of the DDS protocol, designed for critical applications
 in industries such as automotive, avionics, and medical devices,
 ensuring compliance with the most stringent functional
@@ -86,18 +84,6 @@ to the Object Management Group (OMG) consortium.
 
 .. rst-class:: docs-tile
 
-|eProsima Fast DDS Monitor|_ :sr-only:`eProsima Fast DDS Monitor`
--------------------------------------------------------------------
-
-*eProsima Fast DDS Monitor* is a graphical desktop application aimed at monitoring DDS environments deployed using the
-`eProsima Fast DDS`_ library.
-Thus, the user can monitor in real time the status of publication/subscription communications between DDS entities.
-They can also choose from a wide variety of communication parameters to be measured (latency, throughput, packet
-loss, etc.), as well as record and compute in real time statistical measurements on these parameters (mean, variance,
-standard deviation, etc.).
-
-.. rst-class:: docs-tile
-
 |eProsima Fast DDS Monitor Pro|_ :sr-only:`eProsima Fast DDS Monitor Pro`
 ---------------------------------------------------------------------------
 
@@ -106,10 +92,18 @@ deployments that require advanced monitoring capabilities and a richer user expe
 
 .. rst-class:: docs-tile
 
+|eProsima Fast DDS Monitor|_ :sr-only:`eProsima Fast DDS Monitor`
+-------------------------------------------------------------------
+
+*eProsima Fast DDS Monitor* is a graphical desktop application aimed at monitoring
+basic DDS environments deployed using the *eProsima Fast DDS* library.
+
+.. rst-class:: docs-tile
+
 |eProsima DDS Router|_ :sr-only:`eProsima DDS Router`
 -------------------------------------------------------
 
-*eProsima DDS Router* is an application based on `eProsima Fast DDS`_ that allows
+*eProsima DDS Router* is an application based on *eProsima Fast DDS* that allows
 to connect DDS networks that belong to different LANs.
 It works as a bridge between two or more DDS isolated configurations, and transfer
 all the data from one to the other.
@@ -149,7 +143,7 @@ A single instance of the Shapes Demo can publish on or subscribe to several topi
 |eProsima Fast CDR|_ :sr-only:`eProsima Fast CDR`
 ---------------------------------------------------
 
-*eProsima FastCDR* is a C++ library that provides two serialization mechanisms.
+*eProsima FastCDR* is a :nowrap:`C++` library that provides two serialization mechanisms.
 One is the standard CDR serialization mechanism, while the other is a faster implementation that modifies the standard.
 
 .. rst-class:: docs-tile
@@ -166,8 +160,8 @@ This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fa
 |eProsima Fast DDS Statistics Backend|_ :sr-only:`eProsima Fast DDS Statistics Backend`
 -----------------------------------------------------------------------------------------
 
-*eProsima Fast DDS Statistics Backend* is a C++ library to collect data from the
-`eProsima Fast DDS`_ Statistics module, and generate statistical information
+*eProsima Fast DDS Statistics Backend* is a :nowrap:`C++` library to collect data from the
+*eProsima Fast DDS* Statistics module, and generate statistical information
 that applications can query.
 
 .. rst-class:: docs-tile
@@ -185,21 +179,21 @@ two-way integration between DDS and other platforms.
 `eProsima Discovery Server`_
 ----------------------------------------
 
-*eProsima Discovery Server* is an `eProsima Fast DDS`_ discovery mechanism.
-*eProsima Fast DDS* allows a centralized, non-standard, client-server discovery mechanism that:
+*eProsima Discovery Server* is an *eProsima Fast DDS* discovery mechanism.
+This system allows a centralized, non-standard, client-server discovery mechanism that:
 
 .. rst-class:: indented-bullets
 
-- extends *eProsima Fast DDS* use to non-unicast network transports like TCP, and
+- Extends *eProsima Fast DDS* use to non-unicast network transports like TCP.
 
-- speeds up the discovery-stage in a large number of participants scenarios.
+- Speeds up the discovery-stage in a large number of participants scenarios.
 
 .. rst-class:: docs-tile
 
 `eProsima Integration Service`_
 ----------------------------------
 
-*eProsima Integration Service* is a library based on `eProsima Fast DDS`_ for creating parameterized communication
+*eProsima Integration Service* is a library based on *eProsima Fast DDS* for creating parameterized communication
 bridges between different systems, services, and protocols.
 It is also able to perform transformations over the messages such as customized routing and mapping.
 
