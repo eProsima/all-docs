@@ -172,6 +172,16 @@ that applications can query.
 
 .. rst-class:: docs-tile
 
+|eProsima DDS Enabler|_ :sr-only:`eProsima DDS Enabler`
+---------------------------------------------------------
+
+*eProsima DDS Enabler* acts as a bridge between DDS networks and external systems,
+it automatically discovers DDS topics/types, translates DDS data into a target data model,
+and manages the underlying DDS participants, thus enabling real-time, 
+two-way integration between DDS and other platforms.
+
+.. rst-class:: docs-tile
+
 `eProsima Discovery Server`_
 ----------------------------------------
 
@@ -216,6 +226,7 @@ or service, ensuring the recording of the real behavior and timing.
 .. _eProsima Fast CDR: https://github.com/eProsima/Fast-CDR/releases/
 .. _eProsima DDS Suite: dds-suite/intro.html
 .. _eProsima Fast DDS Statistics Backend: https://fast-dds-statistics-backend.readthedocs.io/en/latest/
+.. _eProsima DDS Enabler: https://dds-enabler.readthedocs.io/en/latest/
 .. _eProsima Discovery Server: https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html
 .. _eProsima Integration Service: https://integration-services.readthedocs.io/en/latest/
 .. _eProsima Non-Intrusive DDS Recorder: https://www.eprosima.com/docs/non-intrusive-dds-recorder/1.0.0/pdf/User-Manual.pdf
@@ -273,4 +284,8 @@ or service, ensuring the recording of the real behavior and timing.
 .. |eProsima Fast DDS Statistics Backend| image:: /02-tool-logos/Fast-DDS-Statistics-Backend-Logo_horizontal_trimmed.png
    :alt: eProsima Fast DDS Statistics Backend
    :height: 50px
+
+.. |eProsima DDS Enabler| image:: /02-tool-logos/DDS-Enabler-Logo_trimmed.png
+   :alt: eProsima DDS Enabler
+   :height: 48px
 
