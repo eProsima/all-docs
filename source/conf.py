@@ -110,6 +110,16 @@ html_theme_options = json.loads(
     (SOURCE_DIR / '_static/json/eprosima-furo.json').read_text()
 )
 
+# Logo and brand-name options are specific to this index site and must NOT live
+# in the shared eprosima-furo.json: other eProsima docs (Fast DDS, etc.) download
+# that JSON and merge it, and these logo paths only exist in this repo's _static,
+# so they render as a broken image there. Keep them here instead.
+html_theme_options.update({
+    'light_logo': 'css/imgs/logo_eprosima_horizontal_no_moto_1954x472.png',
+    'dark_logo': 'css/imgs/logo_eprosima_horizontal_no_moto_white_1954x472.png',
+    'sidebar_hide_name': True,
+})
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
