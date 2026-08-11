@@ -233,7 +233,7 @@ or service, ensuring the recording of the real behavior and timing.
 
 .. |eProsima Fast DDS Pro| image:: /02-tool-logos/fast-dds-pro-logo-large.png
    :alt: eProsima Fast DDS Pro
-   :height: 45px
+   :height: 55px
 
 .. |eProsima Safe DDS| image:: /02-tool-logos/Safe-DDS-logo_transparent_trimmed.png
    :alt: eProsima Safe DDS
@@ -245,40 +245,40 @@ or service, ensuring the recording of the real behavior and timing.
 
 .. |eProsima DDS Monitor| image:: /02-tool-logos/dds-monitor-logo_trimmed.png
    :alt: eProsima DDS Monitor
-   :height: 45px
+   :height: 35px
 
 .. |eProsima DDS Monitor Pro| image:: /02-tool-logos/dds-monitor-pro-logo_trimmed.png
    :alt: eProsima DDS Monitor Pro
-   :height: 45px
+   :height: 44px
 
 .. |eProsima DDS Router| image:: /02-tool-logos/DDS-Router-Logo_trimmed.png
    :alt: eProsima DDS Router
-   :height: 45px
+   :height: 50px
 
 .. |eProsima DDS Record & Replay| image:: /02-tool-logos/DDS-Record-Replay-Logo_horizontal_trimmed.png
    :alt: eProsima DDS Record & Replay
-   :height: 45px
+   :height: 55px
 
 .. |eProsima Fast DDS Spy| image:: /02-tool-logos/DDS-Spy-Logo_trimmed.png
    :alt: eProsima Fast DDS Spy
-   :height: 50px
+   :height: 57px
 
 .. |eProsima Shapes Demo| image:: /02-tool-logos/ShapesDemo-Logo_horizontal_trimmed.png
    :alt: eProsima Shapes Demo
-   :height: 45px
+   :height: 51px
 
 .. |eProsima Fast CDR| image:: /02-tool-logos/FastCDR-Logo_trimmed_transparent.png
    :alt: eProsima Fast CDR
-   :height: 45px
+   :height: 37px
 
 .. |eProsima DDS Suite| image:: /02-tool-logos/DDS-Suite-Logo_horizontal_trimmed.png
    :alt: eProsima DDS Suite
-   :height: 45px
+   :height: 56px
 
 .. |eProsima Fast DDS Statistics Backend| image:: /02-tool-logos/Fast-DDS-Statistics-Backend-Logo_horizontal_trimmed.png
    :alt: eProsima Fast DDS Statistics Backend
-   :height: 50px
+   :height: 61px
 
 .. |eProsima DDS Enabler| image:: /02-tool-logos/DDS-Enabler-Logo_trimmed.png
    :alt: eProsima DDS Enabler
-   :height: 48px
+   :height: 50px
