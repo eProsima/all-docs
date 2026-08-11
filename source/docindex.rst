@@ -84,18 +84,18 @@ to the Object Management Group (OMG) consortium.
 
 .. rst-class:: docs-tile
 
-|eProsima Fast DDS Monitor Pro|_ :sr-only:`eProsima Fast DDS Monitor Pro`
+|eProsima DDS Monitor Pro|_ :sr-only:`eProsima DDS Monitor Pro`
 ---------------------------------------------------------------------------
 
-*eProsima Fast DDS Monitor Pro* is the commercial edition of *eProsima Fast DDS Monitor*, designed for professional
+*eProsima DDS Monitor Pro* is the commercial edition of *eProsima DDS Monitor*, designed for professional
 deployments that require advanced monitoring capabilities and a richer user experience.
 
 .. rst-class:: docs-tile
 
-|eProsima Fast DDS Monitor|_ :sr-only:`eProsima Fast DDS Monitor`
+|eProsima DDS Monitor|_ :sr-only:`eProsima DDS Monitor`
 -------------------------------------------------------------------
 
-*eProsima Fast DDS Monitor* is a graphical desktop application aimed at monitoring
+*eProsima DDS Monitor* is a graphical desktop application aimed at monitoring
 basic DDS environments deployed using the *eProsima Fast DDS* library.
 
 .. rst-class:: docs-tile
@@ -153,7 +153,7 @@ One is the standard CDR serialization mechanism, while the other is a faster imp
 
 :ref:`eProsima DDS Suite <eprosima_dds_suite>` is a Docker image distributed by eProsima to provide a convenient
 demonstration for several eProsima products.
-This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima Fast DDS Monitor`_ and `eProsima DDS Router`_.
+This image includes: `eProsima Fast DDS`_, `eProsima Shapes Demo`_, `eProsima DDS Monitor`_ and `eProsima DDS Router`_.
 
 .. rst-class:: docs-tile
 
@@ -171,7 +171,7 @@ that applications can query.
 
 *eProsima DDS Enabler* acts as a bridge between DDS networks and external systems,
 it automatically discovers DDS topics/types, translates DDS data into a target data model,
-and manages the underlying DDS participants, thus enabling real-time, 
+and manages the underlying DDS participants, thus enabling real-time,
 two-way integration between DDS and other platforms.
 
 .. rst-class:: docs-tile
@@ -211,8 +211,8 @@ or service, ensuring the recording of the real behavior and timing.
 .. _eProsima Fast DDS Pro: https://fast-dds.docs.eprosima.com/en/latest/02-formalia/titlepage.html#fast-dds-pro
 .. _eProsima Safe DDS: https://safe-dds.docs.eprosima.com/
 .. _eProsima Micro XRCE-DDS: https://micro-xrce-dds.readthedocs.io/en/latest/
-.. _eProsima Fast DDS Monitor: https://fast-dds-monitor.readthedocs.io/en/latest/
-.. _eProsima Fast DDS Monitor Pro: https://fast-dds-monitor.readthedocs.io/en/latest/rst/formalia/titlepage.html#fast-dds-monitor-pro
+.. _eProsima DDS Monitor: https://dds-monitor.docs.eprosima.com/en/latest/
+.. _eProsima DDS Monitor Pro: https://dds-monitor.docs.eprosima.com/en/latest/rst/formalia/titlepage.html#dds-monitor-pro
 .. _eProsima DDS Router: https://eprosima-dds-router.readthedocs.io/en/latest/
 .. _eProsima DDS Record & Replay: https://dds-recorder.readthedocs.io/en/latest/
 .. _eProsima Fast DDS Spy: https://fast-dds-spy.readthedocs.io/en/latest/
@@ -243,13 +243,13 @@ or service, ensuring the recording of the real behavior and timing.
    :alt: eProsima Micro XRCE-DDS
    :height: 45px
 
-.. |eProsima Fast DDS Monitor| image:: /02-tool-logos/fastdds-monitor-logo_trimmed.png
-   :alt: eProsima Fast DDS Monitor
-   :height: 60px
+.. |eProsima DDS Monitor| image:: /02-tool-logos/dds-monitor-logo_trimmed.png
+   :alt: eProsima DDS Monitor
+   :height: 45px
 
-.. |eProsima Fast DDS Monitor Pro| image:: /02-tool-logos/fastdds-monitor-pro-logo_trimmed.png
-   :alt: eProsima Fast DDS Monitor Pro
-   :height: 60px
+.. |eProsima DDS Monitor Pro| image:: /02-tool-logos/dds-monitor-pro-logo_trimmed.png
+   :alt: eProsima DDS Monitor Pro
+   :height: 45px
 
 .. |eProsima DDS Router| image:: /02-tool-logos/DDS-Router-Logo_trimmed.png
    :alt: eProsima DDS Router
@@ -261,7 +261,7 @@ or service, ensuring the recording of the real behavior and timing.
 
 .. |eProsima Fast DDS Spy| image:: /02-tool-logos/DDS-Spy-Logo_trimmed.png
    :alt: eProsima Fast DDS Spy
-   :height: 48px
+   :height: 50px
 
 .. |eProsima Shapes Demo| image:: /02-tool-logos/ShapesDemo-Logo_horizontal_trimmed.png
    :alt: eProsima Shapes Demo
@@ -282,4 +282,3 @@ or service, ensuring the recording of the real behavior and timing.
 .. |eProsima DDS Enabler| image:: /02-tool-logos/DDS-Enabler-Logo_trimmed.png
    :alt: eProsima DDS Enabler
    :height: 48px
-
