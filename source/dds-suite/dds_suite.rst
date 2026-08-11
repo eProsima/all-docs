@@ -131,17 +131,17 @@ To launch the *Shapes Demo*, from a terminal run:
 
 .. _eprosima_dds_suite_monitor:
 
-Fast DDS Monitor
-----------------
+DDS Monitor
+-----------
 
-To launch the *Fast DDS Monitor*, from a terminal run:
+To launch *DDS Monitor*, from a terminal run:
 
 .. code-block:: bash
 
-    fastdds_monitor
+    dds_monitor
 
-*eProsima Fast DDS Monitor* User Manual can be located on the `Fast DDS Monitor documentation
-<https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/initialize_monitoring.html>`_.
+*eProsima DDS Monitor* User Manual can be located on the `DDS Monitor documentation
+<https://dds-monitor.docs.eprosima.com/en/latest/rst/user_manual/initialize_monitoring.html>`_.
 
 .. _eprosima_dds_router:
 
