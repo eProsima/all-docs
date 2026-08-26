@@ -69,21 +69,9 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
   For more information about *Shapes Demo* please refer to `Shapes Demo documentation page
   <https://eprosima-shapes-demo.readthedocs.io/>`_.
 
-- :ref:`PlotJuggler eProsima Edition <plotjuggler_eprosima_edition>`:
-  *eProsima Fast DDS Visualizer Plugin* is a plugin for the *PlotJuggler* application.
-  PlotJuggler is a graphical desktop application providing visualization features
-  of data series, time series, X-Y plots.
-  It also adds data management features, such as data import and export,
-  custom and built-in data manipulation functions, data series merges, etc.
-  Also, this software supports many different layouts, with dynamic, rich and user-friendly customization.
-  `PlotJuggler eProsima Edition documentation page <https://plotjuggler-fastdds-plugins.readthedocs.io>`_.
-
-- :ref:`eprosima_dds_suite_qos_profiles_manager`: *eProsima Fast DDS QoS Profiles Manager* is a tool suite to ease the
-  generation of XML configuration files for *eProsima Fast DDS*.
-  For more information about *Fast DDS QoS Profiles Manager* please refer to `Fast DDS QoS Profiles Manager
-  documentation page <https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/>`_.
+Getting started
+---------------
 
 .. toctree::
-    :caption: Getting started
 
     dds_suite
