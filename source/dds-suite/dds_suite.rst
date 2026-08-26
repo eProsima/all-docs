@@ -100,34 +100,31 @@ On the publisher side, run:
     cd Benchmark/bin
     ./Benchmark publisher udp
 
-.. _eprosima_dds_suite_qos_profiles_manager:
+.. _micro_xrce_dds:
 
-Fast DDS QoS Profiles Manager
------------------------------
+eProsima Micro XRCE-DDS
+-----------------------
 
-Fast DDS QoS Profiles Manager CLI can be directly called in the Docker container.
-Please, run the following command to display the CLI usage:
-
-.. code-block:: bash
-
-    fastddsqosprof -h
-
-*Fast DDS QoS Profiles Manager CLI* User Manual can be located on the `Fast DDS QoS Profiles Manager documentation
-<https://fast-dds-qos-profiles-manager.readthedocs.io/en/latest/rst/fastdds_qos_profiles_manager_cli/cli.html>`_.
-
-.. _eprosima_dds_suite_shapes_demo:
-
-Shapes Demo
------------
-
-To launch the *Shapes Demo*, from a terminal run:
+To launch the *Micro XRCE-DDS Agent*, from a terminal run:
 
 .. code-block:: bash
 
-    ShapesDemo
+    MicroXRCEAgent udp4 -p 2019 -r /root/agent.refs &
 
-*eProsima Shapes Demo* usage information can be found on the `Shapes Demo documentation
-<https://eprosima-shapes-demo.readthedocs.io/en/latest/first_steps/first_steps.html>`_.
+With the Agent started, you can now run the *Shapes Demo* application:
+
+.. code-block:: bash
+
+    ShapesDemo &
+
+And launch the ShapeDemoClient, a demo client used to send data to *Shapes Demo* via the *Micro XRCE-DDS Agent*.
+
+.. code-block:: bash
+
+    ShapeDemoClient --udp4 127.0.0.1 2019
+
+Inside that client, you can now follow the steps detailed in the `eProsima XRCE-DDS Shapes Demo page
+<https://micro-xrce-dds.docs.eprosima.com/en/latest/shapes_demo.html>`_ to send data to *Shapes Demo*.
 
 .. _eprosima_dds_suite_monitor:
 
@@ -175,46 +172,6 @@ DDS Router communicating both Domains.
         split-window -h "./BasicConfigurationExample publisher --domain 0 --interval 1000 --transport udp" \; \
         split-window -v "./BasicConfigurationExample subscriber --domain 1 --transport udp"
 
-.. _micro_xrce_dds:
-
-eProsima Micro XRCE-DDS
------------------------
-
-To launch the *Micro XRCE-DDS Agent*, from a terminal run:
-
-.. code-block:: bash
-
-    MicroXRCEAgent udp4 -p 2019 -r /root/agent.refs &
-
-With the Agent started, you can now run the *Shapes Demo* application:
-
-.. code-block:: bash
-
-    ShapesDemo &
-
-And launch the ShapeDemoClient, a demo client used to send data to *Shapes Demo* via the *Micro XRCE-DDS Agent*.
-
-.. code-block:: bash
-
-    ShapeDemoClient --udp4 127.0.0.1 2019
-
-Inside that client, you can now follow the steps detailed in the `eProsima XRCE-DDS Shapes Demo page
-<https://micro-xrce-dds.docs.eprosima.com/en/latest/shapes_demo.html>`_ to send data to *Shapes Demo*.
-
-.. _plotjuggler_eprosima_edition:
-
-PlotJuggler eProsima Edition
-----------------------------
-
-To launch the PlotJuggler eProsima Edition, from a terminal run:
-
-.. code-block:: bash
-
- $ plotjuggler
-
-eProsima PlotJuggler eProsima Edition usage information can be found on the `PlotJuggler eProsima Edition User Manual
-<https://plotjuggler-fastdds-plugins.readthedocs.io/en/latest/>`_.
-
 .. _eprosima_dds_record_replay:
 
 DDS Record & Replay
@@ -253,3 +210,17 @@ To launch Fast DDS Spy, from a terminal run:
 
 Fast DDS Spy usage information can be found on the `Fast DDS Spy User Manual
 <https://fast-dds-spy.readthedocs.io/en/latest/rst/user_manual/usage_example.html/>`_.
+
+.. _eprosima_dds_suite_shapes_demo:
+
+Shapes Demo
+-----------
+
+To launch the *Shapes Demo*, from a terminal run:
+
+.. code-block:: bash
+
+    ShapesDemo
+
+*eProsima Shapes Demo* usage information can be found on the `Shapes Demo documentation
+<https://eprosima-shapes-demo.readthedocs.io/en/latest/first_steps/first_steps.html>`_.
