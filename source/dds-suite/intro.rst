@@ -16,16 +16,8 @@ This Docker image contains the complete *eProsima DDS Suite*, which includes:
   For more information about *Fast DDS* please refer to `Fast DDS documentation page
   <https://fast-dds.docs.eprosima.com/>`_.
 
-- :ref:`eProsima Micro XRCE-DDS <micro_xrce_dds>`:
-  *eProsima Micro XRCE-DDS* is a software solution that allows communicating eXtremely Resource Constrained Environments
-  (XRCEs) with an existing DDS network.
-  This implementation complies with the specification of the `eXtremely Resource Constrained Environments DDS
-  (DDS-XRCE) <https://www.omg.org/spec/DDS-XRCE/>`_ protocol.
-  For more information about *eProsima Micro XRCE-DDS* please refer to
-  `eProsima Micro XRCE-DDS documentation page <https://micro-xrce-dds.docs.eprosima.com/>`_.
-
 - :ref:`DDS Monitor <eprosima_dds_suite_monitor>`: *eProsima DDS Monitor* is a graphical desktop application
-  aimed at monitoring DDS environments deployed using the *eProsima Fast DDS* library, which contains an open-source 
+  aimed at monitoring DDS environments deployed using the *eProsima Fast DDS* library, which contains an open-source
   version of the *DDS Monitor*.
   Thus, the user can monitor the real time status of publication/subscription communications between DDS entities.
   They can also choose which communication parameters are to be measured (latency, throughput,
