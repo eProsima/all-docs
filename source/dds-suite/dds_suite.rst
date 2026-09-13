@@ -100,32 +100,6 @@ On the publisher side, run:
     cd Benchmark/bin
     ./Benchmark publisher udp
 
-.. _micro_xrce_dds:
-
-eProsima Micro XRCE-DDS
------------------------
-
-To launch the *Micro XRCE-DDS Agent*, from a terminal run:
-
-.. code-block:: bash
-
-    MicroXRCEAgent udp4 -p 2019 -r /root/agent.refs &
-
-With the Agent started, you can now run the *Shapes Demo* application:
-
-.. code-block:: bash
-
-    ShapesDemo &
-
-And launch the ShapeDemoClient, a demo client used to send data to *Shapes Demo* via the *Micro XRCE-DDS Agent*.
-
-.. code-block:: bash
-
-    ShapeDemoClient --udp4 127.0.0.1 2019
-
-Inside that client, you can now follow the steps detailed in the `eProsima XRCE-DDS Shapes Demo page
-<https://micro-xrce-dds.docs.eprosima.com/en/latest/shapes_demo.html>`_ to send data to *Shapes Demo*.
-
 .. _eprosima_dds_suite_monitor:
 
 DDS Monitor
