@@ -14,7 +14,7 @@ To load this image into your Docker repository, from a terminal run
 
 .. code-block:: bash
 
-    docker load -i ubuntu-eprosima-dds-suite:<version>.tar
+    docker load -i ubuntu-fastdds-suite_:<version>.tar
 
 *eProsima DDS Suite* Docker container can be run as follows:
 
@@ -26,7 +26,7 @@ To load this image into your Docker repository, from a terminal run
         --privileged \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        ubuntu-eprosima-dds-suite:<version>
+        ubuntu-fastdds-suite_:<version>
 
 Each feature can be run from the resulting Bash Shell.
 
@@ -54,10 +54,10 @@ This is a minimal example that will perform a Publisher/Subscriber match and sta
 .. code-block:: bash
 
     goToExamples
-    cd HelloWorldExample/bin
+    cd hello_world/bin
     tmux new-session \
-        "./HelloWorldExample publisher 0 1000" \; \
-        split-window "./HelloWorldExample subscriber" \; \
+        "./hello_world publisher 0 1000" \; \
+        split-window "./hello_world subscriber" \; \
         select-layout even-vertical
 
 This example is not constrained to the current image instance, meaning that it is possible to run several instances of
@@ -67,16 +67,16 @@ From one terminal you could launch an image and, on the presented shell, run:
 .. code-block:: bash
 
     goToExamples
-    cd HelloWorldExample/bin
-    ./HelloWorldExample publisher
+    cd hello_world/bin
+    ./hello_world publisher
 
 And then from another terminal with another instance run the following:
 
 .. code-block:: bash
 
     goToExamples
-    cd HelloWorldExample/bin
-    ./HelloWorldExample subscriber
+    cd hello_world/bin
+    ./hello_world subscriber
 
 Benchmark Example
 ^^^^^^^^^^^^^^^^^
@@ -89,16 +89,16 @@ On the subscriber side, run:
 .. code-block:: bash
 
     goToExamples
-    cd Benchmark/bin
-    ./Benchmark subscriber udp
+    cd benchmark/bin
+    ./benchmark subscriber udp
 
 On the publisher side, run:
 
 .. code-block:: bash
 
     goToExamples
-    cd Benchmark/bin
-    ./Benchmark publisher udp
+    cd benchmark/bin
+    ./benchmark publisher udp
 
 .. _eprosima_dds_suite_monitor:
 
@@ -109,7 +109,7 @@ To launch *DDS Monitor*, from a terminal run:
 
 .. code-block:: bash
 
-    dds_monitor
+    fastdds_monitor
 
 *eProsima DDS Monitor* User Manual can be located on the `DDS Monitor documentation
 <https://dds-monitor.docs.eprosima.com/en/latest/rst/user_manual/initialize_monitoring.html>`_.
@@ -140,11 +140,11 @@ DDS Router communicating both Domains.
 .. code-block:: bash
 
     goToExamples
-    cd DDS/BasicConfigurationExample/bin
+    cd configuration/bin
     tmux new-session \
         "ddsrouter --config-path /config.yml" \; \
-        split-window -h "./BasicConfigurationExample publisher --domain 0 --interval 1000 --transport udp" \; \
-        split-window -v "./BasicConfigurationExample subscriber --domain 1 --transport udp"
+        split-window -h "./configuration publisher --domain 0 --interval 1000 --transport udp" \; \
+        split-window -v "./configuration subscriber --domain 1 --transport udp"
 
 .. _eprosima_dds_record_replay:
 
