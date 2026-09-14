@@ -14,7 +14,7 @@ To load this image into your Docker repository, from a terminal run
 
 .. code-block:: bash
 
-    docker load -i ubuntu-fastdds-suite_:<version>.tar
+    docker load -i ubuntu-fastdds-suite_<version>.tar
 
 *eProsima DDS Suite* Docker container can be run as follows:
 
@@ -26,7 +26,7 @@ To load this image into your Docker repository, from a terminal run
         --privileged \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        ubuntu-fastdds-suite_:<version>
+        ubuntu-fastdds-suite:<version>
 
 Each feature can be run from the resulting Bash Shell.
 
